@@ -1,0 +1,14 @@
+Logs
+Vagrantfile
+cache
+.sass-cache
+.idea
+*.phar
+vendor
+bower_components
+node_modules
+.vagrant
+*.lock
+.vscode
+*.log
+.directory
