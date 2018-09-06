@@ -1,4 +1,4 @@
-# Engaging Reports For Employees
+# Engaging Reports
 
 Reports in a company are crucial for managing projects, departments and the whole company. Creating reports however can be a form of art which can have significant impact on how well information is transported to the target audience as well as how well this information can be used. Important factors for a good report are audience, information/purpose and layout. 
 
