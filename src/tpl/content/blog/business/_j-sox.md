@@ -4,6 +4,14 @@ J-SOX is a standard for evaluating and auditing internal controls relevant for t
 
 ## Company Level Controls (CLC)
 
+Topics which may be described and audited in the CLC are:
+
+1. Communication (effectiveness, efficiency)
+2. Compliance (fraud, whistle blower system, dealing with misconduct)
+3. Responsibilities and how they are ensured
+4. Hiring, training and promotion policies
+5. 
+
 ### Financial Statement Closing Process (FSCP)
 
 ### General Controls IT (IT-GC / GC-IT)
