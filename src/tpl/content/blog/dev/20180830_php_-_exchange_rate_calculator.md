@@ -16,7 +16,7 @@ First we have to download the data from the ECB.
 function getEcbEuroRates() : array
 {
     $ecbCurrencies = [];
-    $response      = \file_get_contents('http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml');
+    $response      = \file_get_contents('https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml');
     $xml           = new \SimpleXMLElement($response);
 
     if (!isset($xml->Cube)) {
