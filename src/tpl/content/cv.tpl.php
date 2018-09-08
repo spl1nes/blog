@@ -1,6 +1,6 @@
 <h1>About Me</h1>
 
-<div class="grid-container" style="float: right">
+<div class="grid-container" style="float: right; padding-left: 20px;">
     <div style="padding-right: 20px">
         Name: Dennis Eichhorn<br>
         Birth: 12.10.1989<br>
