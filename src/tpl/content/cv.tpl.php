@@ -84,7 +84,7 @@
     </li>
 </ul>
 
-<div style="float: left; display: inline-block;">
+<div style="float: left; display: inline-block; margin-right: 20px;">
     <h2><i class="fa fa-graduation-cap"></i> Education</h2>
 
     <ul class='timeline'>
