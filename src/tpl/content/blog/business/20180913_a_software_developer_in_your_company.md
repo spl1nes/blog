@@ -1,4 +1,4 @@
-# A Software Developer In Your Business
+# A Software Developer In Your Company
 
 This article will cover reasons why I believe a software developer for a mid-sized company can be a very valuable asset even if your business doesn’t do any software development as its core business strategy. The reasons are mostly based on my own experience as well as information I receive from other companies I've worked together with.
 
