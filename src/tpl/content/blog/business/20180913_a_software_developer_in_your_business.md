@@ -35,7 +35,7 @@ Great projects/tasks for an in-house developer are:
 
 For a developer to be cost effective a broad spectrum of simple/fast and long running projects is required. Otherwise it is better to outsource these tasks or let "normal" employees deal with them. 
 
-The amount of work and therefore costs which can be saved through optimizations in many companies is significant. A software developer is able to give this fresh input from a completely different and maybe unorthodox point of view while also being able to implement the required software solutions. The amount of work hours which can be saved through software atomization can easily cover for the costs of a developer in many companies.
+The amount of work and therefore costs which can be saved through optimizations in many companies is significant. A software developer is able to give this fresh input from a completely different and maybe unorthodox point of view while also being able to implement the required software solutions. The amount of work hours which can be saved through software automatization can easily cover for the costs of a developer in many companies.
 
 It's also important to note that the results will be much better if the software developer receives a comprehensive training by all departments and gets to see and experience the different workflows.
 
@@ -54,9 +54,9 @@ It's also important to note that the results will be much better if the software
 ## Potential Positive Effect For The Company
 
 * Workflow optimizations
-* Reduced costs due to atomization
-* Reduced errors due to atomization
-* Faster results due to atomization
+* Reduced costs due to automatization
+* Reduced errors due to automatization
+* Faster results due to automatization
 * Better architecture of business components (e.g. product segments, profit center, etc.)
 * In-house consultant for new IT solutions
 * Translator for negotiations with IT vendors
