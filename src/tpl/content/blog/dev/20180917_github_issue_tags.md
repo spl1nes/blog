@@ -28,9 +28,13 @@ The severity should indicate how critical an issue is which will allow to find a
 
 To be precise these look more like priorities than severities but for small to medium projects it might make sense to combine the severity and priority. If you would like to be more precise you should use two different structures for severity and priority which may or may not be helpful for your repository.
 
+Priority:
+
 * prio_low
 * prio_medium
 * prio_high
+
+Severity:
 
 * sev_low
 * sev_medium
