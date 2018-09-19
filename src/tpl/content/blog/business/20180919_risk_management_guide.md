@@ -103,7 +103,7 @@ The primary goal of risk reporting is to provide the management and other decisi
 
 Once the analysis of likelihood and consequence is complete, program teams should then use the risk matrix. This matrix converts the combination of likelihood and the maximum of the cost, schedule, and performance consequence scores to form a risk level for each risk: low (green); moderate (yellow); or high (red). While these values are used to define the risk level, additional factors should be considered to prioritize risks. The cost-effectiveness of perceived risk mitigation options is a primary consideration in establishing priorities for the allocation of scarce resources among competing risks. Other considerations include the frequency of occurrence, time frame, and interrelationship with other risks.
 
-![Risk Matrix]({/base}/src/tpl/content/blog/business/img/risk_circle.png "Risk Matrix")
+![Risk Matrix]({/base}/src/tpl/content/blog/business/img/risk_matrix.png "Risk Matrix")
  
 In summary, the prioritization approach should consider the following:
 
