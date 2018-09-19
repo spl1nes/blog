@@ -33,6 +33,26 @@ article img {
     margin: 0 auto;
 }
 
+article table {
+    border-collapse: collapse;
+}
+
+article tr:nth-child(even){
+    background: #3b497f;
+}
+
+article td, article th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+article th {
+    padding: 12px 0 12px 0;
+    text-align: left;
+    background: #4CAF50;
+    color: white;
+}
+
 body {
     display: flex;
     flex-direction: column;
