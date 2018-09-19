@@ -39,6 +39,8 @@ article img {
 article table {
     border-collapse: collapse;
     background: #fff;
+    margin: 0 auto;
+    width: 100%;
 }
 
 article tr:nth-child(even){
