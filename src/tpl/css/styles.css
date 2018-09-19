@@ -41,6 +41,8 @@ article table {
     background: #fff;
     margin: 0 auto;
     width: 100%;
+    display: block;
+    overflow: auto;
 }
 
 article tr:nth-child(even){
