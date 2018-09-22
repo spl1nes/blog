@@ -40,7 +40,7 @@ In the delegator scripts you can then call all the different checks you want to 
 . ${rootpath}/Build/Hooks/syntax.sh
 . ${rootpath}/Build/Hooks/tests.sh
 
-git diff --cached --name-only | while read FILE; do
+for FILE in $(git diff --cached --name-only); do
     # Code checks are performed here and on failure should exit with none-zero codes which abort the commit
 done
 ```
@@ -48,7 +48,7 @@ done
 I like to structure my code checks in functions and group them by different purposes which is why I put them in different scripts. Instead of checking all files on every commit I usually only check the changed files which is done with this line:
 
 ```bash
-git diff --cached --name-only | while read FILE; do
+for FILE in $(git diff --cached --name-only); do
 ```
 
 The advantage of this is that the pre-commit hook is very fast and doesn't slow down the commit process. For this purpose I also don't perform my unit tests on commits. Commits should be done often and a long test of all unit tests discourages developers from committing. From my perspective it makes more sense to perform the unit tests before the `push` is executed and since I checked all the other things on every commit my `pre-push` hook simply contains a single line which runs my unit tests.
