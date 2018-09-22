@@ -166,8 +166,7 @@ In the delegator the following code has to be implemented:
 
 ```bash
 if [[ "$FILE" =~ ^.+(php)$ ]]; then
-    $(hasInvalidPhpSyntax "$FILE")
-    PHP_SYNTAX=$?
+    PHP_SYNTAX=$(hasInvalidPhpSyntax "$FILE")
 
     if [[ $PHP_SYNTAX = 1 ]]; then
         echo -e "\e[1;31m\tPhp linting error.\e[0m" >&2
@@ -235,8 +234,7 @@ In the delegator the following code has to be implemented:
 
 ```bash
 if [[ "$FILE" =~ ^.+(sh|js|php|json|css)$ ]]; then
-    $(hasInvalidBasicSyntax "$FILE")
-    GEN_SYNTAX=$?
+    GEN_SYNTAX=$(hasInvalidBasicSyntax "$FILE")
 
     if [[ $GEN_SYNTAX = 1 ]]; then
         echo -e "\e[1;31m\tFound whitespace at end of line in $FILE.\e[0m" >&2
