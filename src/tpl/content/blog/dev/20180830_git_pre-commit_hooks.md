@@ -66,17 +66,17 @@ isValidFileName() {
     if test $(git diff --cached --name-only --diff-filter=A -z "$1" |
             LC_ALL=C tr -d '[ -~]\0' | wc -c) != 0
     then
-        return 0
+        echo 0
     fi
 
-    return 1
+    echo 1
 }
 ```
 
 The check in the delegator looks like this:
 
 ```bash
-if [[ $(isValidFileName "$FILE") = 1 ]]; then
+if [[ $(isValidFileName "$FILE") = 0 ]]; then
     echo -e "\e[1;31m\tInvalid file name '$FILE'.\e[0m" >&2
     exit 1
 fi
@@ -92,19 +92,19 @@ During development you sometimes log variables and values which are not meant fo
 hasPhpLogging() {
     RESULT=$(grep "var_dump(" "$1")
     if [ ! -z $RESULT ]; then
-        return 1
+        echo 1
     fi
 
-    return 0
+    echo 0
 }
 
 hasJsLogging() {
     RESULT=$(grep "console.log(" "$1")
     if [ ! -z $RESULT ]; then
-        return 1
+        echo 1
     fi
 
-    return 0
+    echo 0
 }
 ```
 
@@ -133,22 +133,22 @@ hasInvalidPhpSyntax() {
     # php lint
     $(php -l "$1" > /dev/null)
     if [[ $? != 0 ]]; then
-        return 1
+        echo 1
     fi
 
     # phpcs
     $(php -d memory_limit=4G ${rootpath}/vendor/bin/phpcs --standard="${rootpath}/Build/Config/phpcs.xml" --encoding=utf-8 -n -p "$1" > /dev/null)
     if [[ $? != 0 ]]; then
-        return 2
+        echo 2
     fi
 
     # phpmd
     $(php -d memory_limit=4G ${rootpath}/vendor/bin/phpmd "$1" text ${rootpath}/Build/Config/phpmd.xml --exclude *tests* --minimumpriority 1 > /dev/null)
     if [[ $? != 0 ]]; then
-        return 3
+        echo 3
     fi
 
-    return 0
+    echo 0
 }
 ```
 
@@ -182,10 +182,10 @@ For my bash scripts I use bash to validate them.
 isValidBashScript() {
     bash -n "$1" 1> /dev/null
     if [ $? -ne 0 ]; then
-        return 0
+        echo 0
     fi
 
-    return 1
+    echo 1
 }
 ```
 
@@ -204,15 +204,15 @@ Some additional general checks I perform are that a line doesn't end with a whit
 hasInvalidBasicSyntax() {
     # Check whitespace end of line in code
     if [[ -n $(grep -P ' $' "$1") ]]; then
-        return 1
+        echo 1
     fi
 
     # Check for tabs
     if [[ -n $(grep -P '\t' "$1") ]]; then
-        return 2
+        echo 2
     fi
 
-    return 0
+    echo 0
 }
 ```
 
@@ -247,19 +247,19 @@ As described above unit tests may take too long to run for a simple commit. Stat
 isPhanTestSuccessful() {
     php -d memory_limit=4G ${rootpath}/vendor/bin/phan -k ${rootpath}/Build/Config/phan.php -f "$1"
     if [ $? -ne 0 ]; then
-        return 0
+        echo 0
     fi
 
-    return 1
+    echo 1
 }
 
 isPhpStanTestSuccessful() {
     php -d memory_limit=4G ${rootpath}/vendor/bin/phpstan analyse --autoload-file=${rootpath}/phpOMS/Autoloader.php -l 7 -c ${rootpath}/Build/Config/phpstan.neon "$1"
     if [ $? -ne 0 ]; then
-        return 0
+        echo 0
     fi
 
-    return 1
+    echo 1
 }
 ```
 
@@ -295,7 +295,7 @@ Alt attribute for images is required:
 
 ```bash
 if [[ -n $(grep -P '(\<img)((?!.*?alt=).)*(>)' "$1") ]]; then
-    return 1
+    echo 1
 fi
 ```
 
@@ -303,7 +303,7 @@ Input elements must have a type attribute:
 
 ```bash
 if [[ -n $(grep -P '(<input)((?!.*?type=).)*(>)' "$1") ]]; then
-    return 1
+    echo 1
 fi
 ```
 
@@ -311,6 +311,6 @@ Inline CSS is invalid:
 
 ```bash
 if [[ -n $(grep -P '(style=)' "$1") ]]; then
-    return 1
+    echo 1
 fi
 ```
