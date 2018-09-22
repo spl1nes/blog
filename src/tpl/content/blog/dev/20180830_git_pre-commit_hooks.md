@@ -67,9 +67,11 @@ isValidFileName() {
             LC_ALL=C tr -d '[ -~]\0' | wc -c) != 0
     then
         echo 0
+        return 0
     fi
 
     echo 1
+    return 1
 }
 ```
 
@@ -93,18 +95,22 @@ hasPhpLogging() {
     RESULT=$(grep "var_dump(" "$1")
     if [ ! -z $RESULT ]; then
         echo 1
+        return 1
     fi
 
     echo 0
+    return 0
 }
 
 hasJsLogging() {
     RESULT=$(grep "console.log(" "$1")
     if [ ! -z $RESULT ]; then
         echo 1
+        return 1
     fi
 
     echo 0
+    return 0
 }
 ```
 
@@ -134,21 +140,25 @@ hasInvalidPhpSyntax() {
     $(php -l "$1" > /dev/null)
     if [[ $? != 0 ]]; then
         echo 1
+        return 1
     fi
 
     # phpcs
     $(php -d memory_limit=4G ${rootpath}/vendor/bin/phpcs --standard="${rootpath}/Build/Config/phpcs.xml" --encoding=utf-8 -n -p "$1" > /dev/null)
     if [[ $? != 0 ]]; then
         echo 2
+        return 2
     fi
 
     # phpmd
     $(php -d memory_limit=4G ${rootpath}/vendor/bin/phpmd "$1" text ${rootpath}/Build/Config/phpmd.xml --exclude *tests* --minimumpriority 1 > /dev/null)
     if [[ $? != 0 ]]; then
         echo 3
+        return 3
     fi
 
     echo 0
+    return 0
 }
 ```
 
@@ -183,9 +193,11 @@ isValidBashScript() {
     bash -n "$1" 1> /dev/null
     if [ $? -ne 0 ]; then
         echo 0
+        return 0
     fi
 
     echo 1
+    return 1
 }
 ```
 
@@ -205,14 +217,17 @@ hasInvalidBasicSyntax() {
     # Check whitespace end of line in code
     if [[ -n $(grep -P ' $' "$1") ]]; then
         echo 1
+        return 1
     fi
 
     # Check for tabs
     if [[ -n $(grep -P '\t' "$1") ]]; then
         echo 2
+        return 2
     fi
 
     echo 0
+    return 0
 }
 ```
 
@@ -248,18 +263,22 @@ isPhanTestSuccessful() {
     php -d memory_limit=4G ${rootpath}/vendor/bin/phan -k ${rootpath}/Build/Config/phan.php -f "$1"
     if [ $? -ne 0 ]; then
         echo 0
+        return 0
     fi
 
     echo 1
+    return 1
 }
 
 isPhpStanTestSuccessful() {
     php -d memory_limit=4G ${rootpath}/vendor/bin/phpstan analyse --autoload-file=${rootpath}/phpOMS/Autoloader.php -l 7 -c ${rootpath}/Build/Config/phpstan.neon "$1"
     if [ $? -ne 0 ]; then
         echo 0
+        return 0
     fi
 
     echo 1
+    return 1
 }
 ```
 
@@ -296,6 +315,7 @@ Alt attribute for images is required:
 ```bash
 if [[ -n $(grep -P '(\<img)((?!.*?alt=).)*(>)' "$1") ]]; then
     echo 1
+    return 1
 fi
 ```
 
@@ -304,6 +324,7 @@ Input elements must have a type attribute:
 ```bash
 if [[ -n $(grep -P '(<input)((?!.*?type=).)*(>)' "$1") ]]; then
     echo 1
+    return 1
 fi
 ```
 
@@ -312,5 +333,6 @@ Inline CSS is invalid:
 ```bash
 if [[ -n $(grep -P '(style=)' "$1") ]]; then
     echo 1
+    return 1
 fi
 ```
