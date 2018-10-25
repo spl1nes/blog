@@ -142,7 +142,7 @@
         <table class="bullet-list">
             <tr><td>J-SOX (3 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
             <tr><td>Budgeting (5 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
-            <tr><td>Reporting (5years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
+            <tr><td>Reporting (5 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
             <tr><td>Finance audits (2 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
             <tr><td>Consolidation (2 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
             <tr><td>Stock Management (4 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
