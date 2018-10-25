@@ -164,18 +164,14 @@
             <tr><td>C#<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span><span class="bullet"></span>
             <tr><td>C++<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span><span class="bullet"></span>
         </table>
-    </div>
 
-    <div style="float: left; display: inline-block; margin-right: 20px;">
         <h2><i class="fa fa-pencil"></i> Seminars</h2>
         <table class="bullet-list">
             <tr><td>Export control (EKB)
             <tr><td>Year-end accounting tasks (advanced)
             <tr><td>Credit Management
         </table>
-    </div>
 
-    <div style="float: left; display: inline-block;">
         <h2><i class="fa fa-flag-o"></i> Languages</h2>
         <table class="bullet-list">
             <tr><td>German<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
