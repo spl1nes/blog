@@ -138,19 +138,21 @@
 
 <div class="grid-container">
     <div style="float: left; display: inline-block; margin-right: 20px;">
-        <h2><i class="fa fa-sitemap"></i> Business Skills</h2>
+        <h2><i class="fa fa-sitemap"></i> Business Skills & Experiences</h2>
         <table class="bullet-list">
-            <tr><td>J-SOX<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
-            <tr><td>Finance audits<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Consolidation<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Stock Management<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Budgeting<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Reporting<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Asset Accounting<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Balance Accounting<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Debit/Credit Accounting<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Credit Management<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
-            <tr><td>Transfer Pricing<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>J-SOX (3 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
+            <tr><td>Budgeting (5 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
+            <tr><td>Reporting (5years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
+            <tr><td>Finance audits (2 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Consolidation (2 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Stock Management (4 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Debit/Credit Accounting (1 year)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Credit Management (1 year)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>M&A (1 year)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Transfer Pricing (3 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Asset Accounting (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
+            <tr><td>Balance Accounting (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
+            <tr><td>Export Control (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
         </table>
     </div>
 
