@@ -152,6 +152,9 @@
             <tr><td>Transfer Pricing (3 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
             <tr><td>Asset Accounting (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
             <tr><td>Balance Accounting (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
+            <tr><td>Payroll Accounting (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
+            <tr><td>Allowance (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
+            <tr><td>Deferred expenses/income (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
             <tr><td>Export Control (6 month)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span><span class="bullet"></span>
         </table>
     </div>
