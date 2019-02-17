@@ -19,7 +19,9 @@
             <span class='circle'></span>
         </div>
         <div class='content'>
-            <p>While head of finance for GDF I continued to do controlling tasks for Schütz Dental GmbH but took over more responsibilities for GDF. UPDATE COMING SOON!</p>
+            <p>While head of finance for GDF I continued to do controlling tasks for Schütz Dental GmbH but took over more responsibilities for GDF.</p>
+            <p>Key additional tasks for GDF included investor relations, managing insurances, risk management, the responsibility for the annual and monthly statements and finances in general (German GAAP & IFRS), J-SOX audit, project management.</p>
+            <p>Key additional tasks for Schütz Dental included investor relations, fleet management, sales manager negotiations (sales prices, margins, payment terms/credit management), doubtful accounts, monthly statements and finances in general (German GAAP & Italian GAAP)</p>
         </div>
     </li>
     <li class='work'>
@@ -140,7 +142,7 @@
     <div style="float: left; display: inline-block; margin-right: 20px;">
         <h2><i class="fa fa-sitemap"></i> Business Skills & Experiences</h2>
         <table class="bullet-list">
-            <tr><td>J-SOX (3 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
+            <tr><td>J-SOX (4 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
             <tr><td>Budgeting (5 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
             <tr><td>Reporting (5 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
             <tr><td>Finance audits (2 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
