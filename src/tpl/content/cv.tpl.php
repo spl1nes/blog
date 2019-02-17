@@ -20,8 +20,8 @@
         </div>
         <div class='content'>
             <p>While head of finance for GDF I continued to do controlling tasks for Schütz Dental GmbH but took over more responsibilities for GDF.</p>
-            <p>Key additional tasks for GDF included investor relations, managing insurances, risk management, the responsibility for the annual and monthly statements and finances in general (German GAAP & IFRS), J-SOX audit, project management.</p>
-            <p>Key additional tasks for Schütz Dental included investor relations, fleet management, sales manager negotiations (sales prices, margins, payment terms/credit management), doubtful accounts, monthly statements and finances in general (German GAAP & Italian GAAP)</p>
+            <p>Key additional tasks for GDF included investor relations, leading department, managing insurances, risk management, the responsibility for the annual and monthly statements and finances in general (German GAAP & IFRS), J-SOX audit, project management.</p>
+            <p>Key additional tasks for Schütz Dental included investor relations, leading department, fleet management, sales manager negotiations (sales prices, margins, payment terms/credit management), doubtful accounts, monthly statements and finances in general (German GAAP & Italian GAAP)</p>
         </div>
     </li>
     <li class='work'>
