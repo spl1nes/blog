@@ -99,7 +99,7 @@
                 <span class='circle'></span>
             </div>
             <div class='content'>
-                <p>Successful graduated.</p>
+                <p>Successfully graduated.</p>
             </div>
         </li>
         <li class='education'>
@@ -120,7 +120,7 @@
                 <span class='circle'></span>
             </div>
             <div class='content'>
-                <p>Finished.</p>
+                <p>Successfully completed.</p>
             </div
         </li>
         <li class='education'>
@@ -132,7 +132,7 @@
                 <span class='circle-end'></span>
             </div>
             <div class='content'>
-                <p>Successful graduated.</p>
+                <p>Successfully graduated.</p>
             </div>
         </li>
     </ul>
