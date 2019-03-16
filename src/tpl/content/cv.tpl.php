@@ -34,7 +34,7 @@
         <div class='content'>
             <p>With the return of the previous head of controlling I returned to my position as controller. However I continued to perform all of my head of controlling tasks except managing the annual stock taking which I now only assisted in.</p>
 
-            <p>Projects during this time where the implementation of additional reportings for our japanese shareholders, as well as selling one of the two companies I was working for (Schütz Dental GmbH) in a management team of additional 4 people. Further projects were the optimization of interco prices, product portfolio optimizations and improving the annual budgeting process buy making it a full business plan.</p>
+            <p>Projects during this time where the implementation of additional reportings for our japanese shareholders, as well as selling one of the two companies I was working for (Schütz Dental GmbH) in a management team of additional 4 people. Further projects were the optimization of interco prices, product portfolio optimizations and improving the annual budgeting process by making it a full business plan.</p>
         </div>
     </li>
     <li class='work'>
