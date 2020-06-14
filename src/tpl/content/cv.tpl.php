@@ -147,6 +147,8 @@
             <tr><td>Reporting (5 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span>
             <tr><td>Finance audits (2 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
             <tr><td>Consolidation (2 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Loan Management (> 2.5 MEUR)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
+            <tr><td>Maintaining Profit during economic crisis<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
             <tr><td>Stock Management (4 years)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
             <tr><td>Debit/Credit Accounting (1 year)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
             <tr><td>Credit Management (1 year)<td><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet active"></span><span class="bullet"></span>
