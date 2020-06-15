@@ -1,4 +1,4 @@
-# Employee Ranking Based on Relations
+# Employee Ranking Based on Intercompany Relations
 
 You may have heard about the **PageRank** algorithm which made Google so successful in it's early days. This algorithm ranks websites based on their relation to other websites. This algorithm could be used to apply the same logic on employees and their relationships to other employees in order to determin the importance of employees.
 
