@@ -1,25 +1,27 @@
 # Employee Ranking Based on Intercompany Relations
 
-You may have heard about the **PageRank** algorithm which made Google so successful in it's early days. This algorithm ranks websites based on their relation to other websites. This algorithm could be used to apply the same logic on employees and their relationships to other employees in order to determin the importance of employees.
+You may have heard about the **PageRank** algorithm which made Google so successful in it's early days. This algorithm ranks websites based on their relation to other websites. This algorithm could be used to apply the same logic on employees and their relationships to other employees in order to determin their importance.
 
 ## The PageRank Algorithm
 
 The PageRank algorithm checks which website links to which other website and inferes a score based on the amount and quality of relations. A link from a high ranking website is more valuable than a link from a low ranking website. Since the rank of a page changes over time (based on the incoming links) the algorithm needs to "re-calculate" the ranks many times to come to a conclusion. 
 
-The algorithm itself shall not be a topic of this post and can be checked out on https://en.wikipedia.org/wiki/PageRank.
+The algorithm itself shall not be a topic of this post and can be checked out at https://en.wikipedia.org/wiki/PageRank.
 
 ## Possible Conclusions and Analysis
 
-While this is most certainly a controversial topic it is definately an interesting though experiment. You could:
+While this is most certainly a controversial topic it is an interesting though experiment. You could:
 
 * Learn a lot about who the key people in the company are
 * Find critical positions which need a backup
 * Possible communication issues (which people/departments have a low rank and are possibly not involved enough)
 * Which are the social groups in a company (this could be paired with a cluster analysis). Changes to single positions/people may effect the whole group/cluster (e.g. employee leaves the company, becomes sick, becomes demotivated etc.)
 
+As with most analysis you need to understand the source data and how the result is calculated in order to make valid conclusions. There are various scenarious where the wrong conclusions can be made if you don't understand the underlying data and business structure.
+
 ## Databasis 
 
-The most simple databasis which most companies have are emails. Let's say we could use all the email history within the company to track who is communicating with whom and how often. In terms of the PageRank algorithm the people would be the "websites" and the emails sent to other employees are the "links" between websites.
+The most simple databasis which most companies have are emails. Let's say we could use all the email history within the company to track who is communicating with whom and how often. In terms of the PageRank algorithm the people would be the "websites" and the emails sent to other employees are the "links" between websites. Contrary to the normal PageRank algorithm it may make sense to consider the amount of emails from one person to another person. In a simple approach we could weight the relationship between two individuals simply by considering every single email as its own connection to the other person instead of reducing all emails from one person to another person to a single connection.
 
 ## Implementation
 
