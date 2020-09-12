@@ -19,6 +19,11 @@ While this is most certainly a controversial topic it is an interesting though e
 
 As with most analysis you need to understand the source data and how the result is calculated in order to make valid conclusions. There are various scenarious where the wrong conclusions can be made if you don't understand the underlying data and business structure.
 
+### Annotations
+
+* If you only use your own emails received/send you should exclude yourself from the ranking since your own score will be skewed
+* If you only use your own emails received/send people you are working with a lot, usually have higher ratings and will be skewed
+
 ## Databasis 
 
 The most simple databasis which most companies have are emails. Let's say we could use all the email history within the company to track who is communicating with whom and how often. In terms of the PageRank algorithm the people would be the "websites" and the emails sent to other employees are the "links" between websites. Contrary to the normal PageRank algorithm it may make sense to consider the amount of emails from one person to another person. In a simple approach we could weight the relationship between two individuals simply by considering every single email as its own connection to the other person instead of reducing all emails from one person to another person to a single connection.
