@@ -26,7 +26,7 @@ if ($trueValue)) {
 }
 ```
 
-Alternatively, you may want to enable branch covering in order to avoid this pitfall.
+Alternatively, you may want to enable branch covering in order to avoid this pitfall. However, checking for branch coverage usually takes much longer and for large test suits may not be possible.
 
 Another solution for this could be to simply make all code executions with side effects (assignments included) before the if statement (many code styles even have this as guideline).
 ```php
