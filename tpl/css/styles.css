@@ -1,0 +1,161 @@
+/* Normal */
+.clear {
+    clear: both;
+}
+
+/* CV */
+.content .timeline {
+    list-style: none;
+    margin: 0 0 30px 120px;
+    padding-left: 30px;
+    border-left: 3px solid #eaeaea;
+}
+
+.timeline li {
+    margin: 0;
+    position: relative;
+}
+
+.timeline p {
+    margin: 0 0 15px;
+}
+
+.date {
+    margin-top: -18px;
+    top: 50%;
+    left: -150px;
+    font-size: 0.95em;
+    line-height: 20px;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.circle {
+    margin-top: -10px;
+    top: 50%;
+    left: -40px;
+    width: 10px;
+    height: 10px;
+    background: #25acff;
+    border: 3px solid #eaeaea;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+}
+
+.circle-start {
+    margin-top: 0;
+    top: 0;
+    left: -45px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 3px solid #eaeaea;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+}
+
+.circle-end {
+    margin-top: 0;
+    top: 100%;
+    left: -45px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 3px solid #eaeaea;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+}
+
+.timeline label {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.radio {
+    display: none;
+}
+
+.break {
+    display: none;
+}
+
+.bullet-list {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.bullet-list td:first-child {
+    padding-right: 20px;
+}
+
+.bullet-list td:nth-child(n+1) {
+    white-space: nowrap;
+}
+
+.bullet-list span {
+    margin-right: 5px;
+}
+
+.bullet {
+    width: 7px;
+    height: 7px;
+    border-radius: 30px;
+    background: #ccc;
+    display: inline-block;
+}
+
+.content .timeline li:before {
+    display: none;
+}
+
+.bullet.active {
+    background: #000;
+}
+
+.tag {
+    padding: .3rem .5rem .3rem .5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.tag.dev {
+    background: rgb(112, 255, 124);
+}
+
+.tag.biz {
+    background: rgb(227, 129, 255);
+}
+
+.content section h1 {
+    font-weight: 100;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
+article p+p {
+    margin-top: .5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .date {
+        margin: 0;
+        font-size: 0.95em;
+        position: inherit;
+        padding: 0;
+        border: none;
+    }
+
+    .timeline {
+        margin: 0;
+    }
+}
