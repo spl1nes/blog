@@ -32,7 +32,7 @@ $solutions = $this->data['solutions'] ?? [];
                     <h1><?= $solution['headline'] ?? '' ?></h1>
                     <h2><?= $solution['summary'] ?? '' ?></h2>
                     <?php if ($solution['parent'] === 'finished') : ?>
-                        <span class="price"><?= $this->data['l11n']['Price']; ?>: <?= $solution['price'] ?? '' ?></span>
+                        <span class="price"><?= $this->data['l11n']['Price']; ?>: <span><?= $solution['price'] ?? '' ?></span></span>
                     <?php endif; ?>
                     <div class="button-list">
                         <?php if ($solution['parent'] === 'finished') : ?>

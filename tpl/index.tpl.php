@@ -15,6 +15,12 @@
         <link rel="shortcut icon" href="tpl/img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="tpl/css/styles.css">
         <link rel="stylesheet" type="text/css" href="resources/fonts/Roboto/roboto.css">
+
+        <title><?= $this->data['title'] ?? 'Jingga'; ?></title>
+
+        <?php if (isset($this->data['jsonld'])): ?>
+            <script type="application/ld+json"><?= $this->data['jsonld']; ?></script>
+        <?php endif; ?>
     </head>
     <body>
         <?php include __DIR__ . '/header.tpl.php'; ?>

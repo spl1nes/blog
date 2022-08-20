@@ -13,9 +13,13 @@ class FrontController
         $view->subtemplate = __DIR__ . '/../tpl/content/default.tpl.php';
         $view->content     = __DIR__ . '/../content/front/' . ($view->data['lang'] ?? 'en') . '_front.tpl.php';
 
+        $view->data['title'] = 'Jingga';
         $view->data['articles'] = $this->getArticleSummaries(__DIR__ . '/../content/blog', 3);
 
-        $view->data['solutions'] = $this->getArticleSummaries(__DIR__ . '/../content/solutions', 0, '_' . ($view->data['lang'] ?? 'en'));
+        $view->data['solutions'] = $this->getArticleSummaries(
+            __DIR__ . '/../content/solutions', 0, '_' . ($view->data['lang'] ?? 'en')
+        );
+
         \shuffle($view->data['solutions']);
         $view->data['solutions'] = [$view->data['solutions'][0]];
 
@@ -37,9 +41,45 @@ class FrontController
         $view->template    = __DIR__ . '/../tpl/index.tpl.php';
         $view->subtemplate = __DIR__ . '/../tpl/content/blog-list.tpl.php';
 
+        $view->data['title'] = 'Blog';
         $view->data['articles'] = $this->getArticleSummaries(__DIR__ . '/../content/blog', 0);
 
         return $view;
+    }
+
+    private function getArticleSummary(string $path, string $article) : array
+    {
+        $f = \fopen($path . '/' . $article, 'r');
+        $headline = \fgets($f);
+
+        $start = false;
+        $end   = false;
+
+        $summary = '';
+
+        while (!$end && ($line = \fgets($f)) !== false) {
+            if (\trim($line) !== '') {
+                $summary .= $line;
+                $start    = true;
+            } elseif ($start && !$end) {
+                $end = true;
+            }
+        }
+
+        \fclose($f);
+
+        $headline = \str_replace('#', '', $headline);
+        $headline = \trim($headline);
+
+        $parser = new Markdown();
+
+        return [
+            'headline' => $headline,
+            'summary'  => \str_replace(['<p>', '</p>'], '', $parser->parse($summary)),
+            'path'     => \explode('/', $article)[0],
+            'name'     => \str_replace('.md', '', \explode('/', $article)[1]),
+            'parent'   => \basename(\dirname($article)),
+        ];
     }
 
     private function getArticleSummaries(string $path, int $limit = 0, string $l11n = '') : array
@@ -66,37 +106,7 @@ class FrontController
                 break;
             }
 
-            $f = \fopen($path . '/' . $article, 'r');
-            $headline = \fgets($f);
-
-            $start = false;
-            $end   = false;
-
-            $summary = '';
-
-            while (!$end && ($line = \fgets($f)) !== false) {
-                if (\trim($line) !== '') {
-                    $summary .= $line;
-                    $start    = true;
-                } elseif ($start && !$end) {
-                    $end = true;
-                }
-            }
-
-            \fclose($f);
-
-            $headline = \str_replace('#', '', $headline);
-            $headline = \trim($headline);
-
-            $parser = new Markdown();
-
-            $list[] = [
-                'headline' => $headline,
-                'summary'  => \str_replace(['<p>', '</p>'], '', $parser->parse($summary)),
-                'path'     => \explode('/', $article)[0],
-                'name'     => \str_replace('.md', '', \explode('/', $article)[1]),
-                'parent'   => \basename(\dirname($article)),
-            ];
+            $list[] = $this->getArticleSummary($path, $article);
         }
 
         return $list;
@@ -142,7 +152,14 @@ class FrontController
         $paths  = \explode('/', $view->data['url']['path']);
         $length = \count($paths);
 
-        $view->content     = __DIR__ . '/../content/blog/' . $paths[$length - 2] . '/' . $paths[$length - 1] . '.md';
+        $view->data['article'] = $this->getArticleSummary(
+            __DIR__ . '/../content/blog',
+            $paths[$length - 2] . '/' . $paths[$length - 1] . '.md'
+        );
+
+        $view->data['title'] = $view->data['article']['headline'];
+        $view->content       = __DIR__ . '/../content/blog/'
+            . $paths[$length - 2] . '/' . $paths[$length - 1] . '.md';
 
         return $view;
     }
@@ -152,7 +169,11 @@ class FrontController
         $view->template    = __DIR__ . '/../tpl/index.tpl.php';
         $view->subtemplate = __DIR__ . '/../tpl/content/solution-list.tpl.php';
 
-        $view->data['solutions'] = $this->getArticleSummaries(__DIR__ . '/../content/solutions', 0, '_' . ($view->data['lang'] ?? 'en'));
+        $view->data['title'] =  $view->data['l11n']['Solutions'];
+        $view->data['solutions'] = $this->getArticleSummaries(
+            __DIR__ . '/../content/solutions', 0, '_' . ($view->data['lang'] ?? 'en')
+        );
+
         \shuffle($view->data['solutions']);
 
         $json = \json_decode(\file_get_contents(__DIR__ . '/../content/solutions/list.json'), true);
@@ -186,52 +207,76 @@ class FrontController
         $paths  = \explode('/', $view->data['url']['path']);
         $length = \count($paths);
 
-        $view->content     = __DIR__ . '/../content/solutions/' . $paths[$length - 2] . '/' . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.md';
+        $view->data['solution'] = $this->getArticleSummary(
+            __DIR__ . '/../content/solutions',
+            $paths[$length - 2] . '/' . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.md'
+        );
+
+        $view->data['title']  = $view->data['solution']['headline'];
+
+        $hasJsonLd = \is_file($jsonldPath = __DIR__ . '/../content/solutions/'
+            . $paths[$length - 2] . '/'
+            . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.jsonld.php');
+
+        if ($hasJsonLd) {
+            $view->data['jsonld'] = include $jsonldPath;
+        }
+
+        $view->content = __DIR__ . '/../content/solutions/'
+            . $paths[$length - 2] . '/'
+            . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.md';
 
         return $view;
     }
 
     public function aboutView(View $view) : View
     {
-        $view->template    = __DIR__ . '/../tpl/index.tpl.php';
-        $view->subtemplate = __DIR__ . '/../tpl/content/default.tpl.php';
-        $view->content     = __DIR__ . '/../content/about/' . ($view->data['lang'] ?? 'en') . '_about.tpl.php';
+        $view->template       = __DIR__ . '/../tpl/index.tpl.php';
+        $view->subtemplate    = __DIR__ . '/../tpl/content/default.tpl.php';
+        $view->content        = __DIR__ . '/../content/about/' . ($view->data['lang'] ?? 'en') . '_about.tpl.php';
+        $view->data['title']  = $view->data['l11n']['About'];
+        $view->data['jsonld'] = include __DIR__ . '/../content/contact/contact.jsonld.php';
 
         return $view;
     }
 
     public function imprintView(View $view) : View
     {
-        $view->template    = __DIR__ . '/../tpl/index.tpl.php';
-        $view->subtemplate = __DIR__ . '/../tpl/content/default.md.php';
-        $view->content     = __DIR__ . '/../content/imprint/' . ($view->data['lang'] ?? 'en') . '_imprint.md';
+        $view->template      = __DIR__ . '/../tpl/index.tpl.php';
+        $view->subtemplate   = __DIR__ . '/../tpl/content/default.md.php';
+        $view->content       = __DIR__ . '/../content/imprint/' . ($view->data['lang'] ?? 'en') . '_imprint.md';
+        $view->data['title'] = $view->data['l11n']['Imprint'];
 
         return $view;
     }
 
     public function termsView(View $view) : View
     {
-        $view->template    = __DIR__ . '/../tpl/index.tpl.php';
-        $view->subtemplate = __DIR__ . '/../tpl/content/default.md.php';
-        $view->content     = __DIR__ . '/../content/terms/' . ($view->data['lang'] ?? 'en') . '_terms.md';
+        $view->template      = __DIR__ . '/../tpl/index.tpl.php';
+        $view->subtemplate   = __DIR__ . '/../tpl/content/default.md.php';
+        $view->content       = __DIR__ . '/../content/terms/' . ($view->data['lang'] ?? 'en') . '_terms.md';
+        $view->data['title'] = $view->data['l11n']['Terms'];
 
         return $view;
     }
 
     public function privacyView(View $view) : View
     {
-        $view->template    = __DIR__ . '/../tpl/index.tpl.php';
-        $view->subtemplate = __DIR__ . '/../tpl/content/default.md.php';
-        $view->content     = __DIR__ . '/../content/privacy/' . ($view->data['lang'] ?? 'en') . '_privacy.md';
+        $view->template      = __DIR__ . '/../tpl/index.tpl.php';
+        $view->subtemplate   = __DIR__ . '/../tpl/content/default.md.php';
+        $view->content       = __DIR__ . '/../content/privacy/' . ($view->data['lang'] ?? 'en') . '_privacy.md';
+        $view->data['title'] = $view->data['l11n']['Privacy'];
 
         return $view;
     }
 
     public function contactView(View $view) : View
     {
-        $view->template    = __DIR__ . '/../tpl/index.tpl.php';
-        $view->subtemplate = __DIR__ . '/../tpl/content/default.tpl.php';
-        $view->content     = __DIR__ . '/../content/contact/contact.tpl.php';
+        $view->template       = __DIR__ . '/../tpl/index.tpl.php';
+        $view->subtemplate    = __DIR__ . '/../tpl/content/default.tpl.php';
+        $view->content        = __DIR__ . '/../content/contact/contact.tpl.php';
+        $view->data['title']  = $view->data['l11n']['Contact'];
+        $view->data['jsonld'] = include __DIR__ . '/../content/contact/contact.jsonld.php';
 
         return $view;
     }

@@ -11,19 +11,19 @@ $solutions = $this->data['solutions'] ?? [];
         foreach ($solutions as $solution) :
             ++$count;
         ?>
-            <section class="preview">
+            <section class="preview" itemtype="https://schema.org/Product" itemscope>
                 <?php if ($count % 2 === 0) : ?>
-                <div class="splash">
+                <div class="splash" itemprop="image">
                     <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
                 </div>
                 <?php endif; ?>
                 <div class="product">
-                    <h1><?= $solution['headline'] ?? '' ?></h1>
-                    <h2><?= $solution['summary'] ?? '' ?></h2>
+                    <h1 itemprop="name"><?= $solution['headline'] ?? '' ?></h1>
+                    <h2 itemprop="description"><?= $solution['summary'] ?? '' ?></h2>
                     <?php if ($solution['parent'] === 'finished') : ?>
-                        <span class="price"><?= $this->data['l11n']['Price']; ?>: <?= $solution['price'] ?? '' ?></span>
+                        <span class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope><?= $this->data['l11n']['Price']; ?>: <span itemprop="price"><?= $solution['price'] ?? '' ?></span></span>
                     <?php else: ?>
-                        <span class="price"><?= $this->data['l11n']['InDevelopment']; ?></span>
+                        <span class="price" class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope><span itemprop="price"><?= $this->data['l11n']['InDevelopment']; ?></span></span>
                     <?php endif; ?>
                     <div class="button-list">
                         <?php if ($solution['parent'] === 'finished') : ?>
@@ -33,7 +33,7 @@ $solutions = $this->data['solutions'] ?? [];
                     </div>
                 </div>
                 <?php if ($count % 2 !== 0) : ?>
-                <div class="splash">
+                <div class="splash" itemprop="image">
                     <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
                 </div>
                 <?php endif; ?>
