@@ -1,4 +1,4 @@
-# Imprint
+# Impressum
 
 jingga
 

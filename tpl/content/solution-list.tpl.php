@@ -14,14 +14,19 @@ $solutions = $this->data['solutions'] ?? [];
             <section class="preview" itemtype="https://schema.org/Product" itemscope>
                 <?php if ($count % 2 === 0) : ?>
                 <div class="splash" itemprop="image">
-                    <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                    <a href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">
+                        <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                    </a>
                 </div>
                 <?php endif; ?>
                 <div class="product">
                     <h1 itemprop="name"><?= $solution['headline'] ?? '' ?></h1>
                     <h2 itemprop="description"><?= $solution['summary'] ?? '' ?></h2>
                     <?php if ($solution['parent'] === 'finished') : ?>
-                        <span class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope><?= $this->data['l11n']['Price']; ?>: <span itemprop="price"><?= $solution['price'] ?? '' ?></span></span>
+                        <span class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
+                            <?= $this->data['l11n']['Price']; ?>:
+                            <span itemprop="price"><?= $solution['price'] ?? '' ?></span>
+                        </span>
                     <?php else: ?>
                         <span class="price" class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope><span itemprop="price"><?= $this->data['l11n']['InDevelopment']; ?></span></span>
                     <?php endif; ?>
@@ -34,7 +39,9 @@ $solutions = $this->data['solutions'] ?? [];
                 </div>
                 <?php if ($count % 2 !== 0) : ?>
                 <div class="splash" itemprop="image">
-                    <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                    <a href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">
+                        <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                    </a>
                 </div>
                 <?php endif; ?>
             </section>

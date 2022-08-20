@@ -25,14 +25,19 @@ $solutions = $this->data['solutions'] ?? [];
             <section class="preview">
                 <?php if ($count % 2 === 0) : ?>
                 <div class="splash">
-                    <img src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                    <a href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">
+                        <img src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                    </a>
                 </div>
                 <?php endif; ?>
                 <div class="product">
                     <h1><?= $solution['headline'] ?? '' ?></h1>
                     <h2><?= $solution['summary'] ?? '' ?></h2>
                     <?php if ($solution['parent'] === 'finished') : ?>
-                        <span class="price"><?= $this->data['l11n']['Price']; ?>: <span><?= $solution['price'] ?? '' ?></span></span>
+                        <span class="price">
+                            <?= $this->data['l11n']['Price']; ?>:
+                        <span><?= $solution['price'] ?? '' ?></span>
+                        </span>
                     <?php endif; ?>
                     <div class="button-list">
                         <?php if ($solution['parent'] === 'finished') : ?>
@@ -50,8 +55,6 @@ $solutions = $this->data['solutions'] ?? [];
         <?php endforeach; ?>
     </div>
 </div>
-
-
 
 <div class="content">
     <div class="floater row">
