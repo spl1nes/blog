@@ -5,9 +5,14 @@ $articles = $this->data['articles'] ?? [];
 <div class="content">
     <div class="floater">
         <h1>Blog</h1>
+
+        <?php if ($this->data['lang'] === 'de') : ?>
+            <article><blockquote>Blog Artikel sind hauptsächlich in englischer Sprache!</blockquote></article>
+        <?php endif; ?>
+
         <?php foreach ($articles as $article) : ?>
-            <section class="box preview">
-                <h1><?php if (\stripos('/' . ($article['path'] ?? '') . '/', '/dev/') !== false) : ?>
+            <section class="summary">
+                <h1><?php if ($article['parent'] === 'dev') : ?>
                         <span class="tag dev">dev</span>
                     <?php else : ?>
                         <span class="tag biz">biz</span>

@@ -1,0 +1,12 @@
+cache
+vendor
+bower_components
+node_modules
+.sass-cache
+.idea
+.vscode
+.directory
+*.log
+*.cache
+*.phar
+*.xml

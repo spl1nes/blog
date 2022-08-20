@@ -5,8 +5,12 @@ return [
     'Solutions' => 'Lösungen',
     'About' => 'Über mich',
     'Terms' => 'AGB',
-    'DataProtection' => 'Datenschutz',
+    'Privacy' => 'Datenschutzerklärung',
     'Imprint' => 'Impressum',
     'Contact' => 'Kontakt',
     'more' => 'mehr',
+    'Price' => 'Preis',
+    'Buy' => 'Kaufen',
+    'InDevelopment' => 'In Entwicklung',
+    'Phone' => 'Telefon',
 ];

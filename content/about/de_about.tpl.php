@@ -1,74 +1,74 @@
 <div class="content">
     <div class="floater">
-        <h1>About</h1>
+        <h1>Über Mich</h1>
 
-        <p>The jingga website contains a collection of business articles, software and documents created by Dennis Eichhorn. The goal is to provide some nieche solutions for businesses who are looking for simple software solutions. In some cases projects are work in progress but still can get checked out. If customizations are necessary or in case of business inquiries please feel free to contact us, but please note that these projects are mainly <i>"side projects"</i> which means that there may not be any ressources available to provide support or customizations.</p>
+        <p>Die jingga-Website enthält eine Sammlung von Geschäftsartikeln, Software und Dokumenten, die von Dennis Eichhorn erstellt wurden. Das Ziel ist es, einige nieche Lösungen für Unternehmen anzubieten, die auf der Suche nach einfachen Softwarelösungen sind. In einigen Fällen sind die Projekte noch in Arbeit, können aber dennoch ausprobiert werden. Falls Anpassungen notwendig sind oder geschäftliche Anfragen bestehen, können Sie sich gerne an uns wenden. Bitte beachten Sie jedoch, dass es sich bei diesen Projekten hauptsächlich um <i>"Nebenprojekte"</i> handelt, was bedeutet, dass möglicherweise keine Ressourcen zur Verfügung stehen, um Support oder Anpassungen anzubieten.</p>
     </div>
 </div>
 
 <div class="content">
     <div class="floater">
-        <h2>CV</h2>
+        <h2>Lebenslauf</h2>
 
         <ul class='timeline'>
             <li class='work'>
                 <input class='radio' id='work6' name='works' type='radio' checked>
                 <div>
-                    <label for='work6'>Head of Finance & Authorized Officer (Schütz Dental GmbH / GDF)</label>
+                    <label for='work6'>Leiter Finanzen & Prokurist (Schütz Dental GmbH / GDF)</label>
                     <span class='date'>Aug. 2018</span>
                     <span class='circle-start'></span>
                     <span class='circle'></span>
                 </div>
                 <div class='timeline-content'>
-                    <p>Continuation of most of the head of controlling tasks/responsibilities.</p>
-                    <p>Key additional tasks included representing the financial interests in the executive committee, managing various contracts as authorized officer (Prokurist), investor relations, managing the finance department of 9 people, managing insurances, risk management, the responsibility for the annual and monthly statements (German GAAP & IFRS), J-SOX responsible, project management for various large projects.</p>
-                    <p>Further tasks were fleet management, sales manager negotiations (sales prices, margins, payment terms/credit management), doubtful accounts and finances in general which includes representing the company regarding all financial aspects in audits, meetings with various key partners (i.e. banks, customers, suppliers, tax authorities, ...).</p>
+                    <p>Fortführung der meisten Aufgaben/Zuständigkeiten des Leiters des Controllings.</p>
+                    <p>Wesentliche zusätzliche Aufgaben waren die Vertretung der finanziellen Interessen im Vorstand, die Verwaltung diverser Verträge als Prokurist, Investor Relations, die Leitung der 9-köpfigen Finanzabteilung, die Verwaltung von Versicherungen, Risikomanagement, die Verantwortung für die Jahres- und Monatsabschlüsse (HGB & IFRS), J-SOX-Verantwortlicher, Projektmanagement für diverse Großprojekte.</p>
+                    <p>Weitere Aufgaben waren das Fuhrparkmanagement, Verhandlungen mit dem Verkaufsleiter (Verkaufspreise, Margen, Zahlungsbedingungen/Kreditmanagement), zweifelhafte Forderungen und Finanzen im Allgemeinen, einschließlich der Vertretung des Unternehmens in Bezug auf alle finanziellen Aspekte bei Audits, Besprechungen mit verschiedenen wichtigen Partnern (z.B. Banken, Kunden, Lieferanten, Steuerbehörden, ...).</p>
                 </div>
             </li>
             <li class='work'>
                 <input class='radio' id='work4' name='works' type='radio'>
                 <div>
-                    <label for='work4'>Head of Controlling (Schütz Dental GmbH and GDF)</label>
+                    <label for='work4'>Leiter Controlling (Schütz Dental GmbH und GDF)</label>
                     <span class='date'>Okt. 2015</span>
                     <span class='circle'></span>
                 </div>
                 <div class='timeline-content'>
-                    <p>Responsible for creating the monthly internal reporting according to German GAAP (HGB), the monthly reporting for the japanese stock market shareholder according to IFRS (implementation and actual reporting) directly for the HQ, sales reports, sales price calculations for promotions and products with critical margins, budget / actual comparisons, expense and sales forecsts, annual budgeting, J-SOX (implementation, controlling and performing the audits), managing the annual stock taking, process and workflow optimizations as well as managing critical IT implementations. Additionally, responsible for one junior controller.</p>
-                    <p>During the monthly closing I performed the stock evaluation, cut-off-test, created various reportings with respect to income statement, balance, consolidation, product segments, R&D and production. Key projects include the implementation of a automatic profit center evaluation in order to support sales cost accounting reports, I changed the manual stock evaluation to a automatic stock evaluation. Furthermore, I introduced a improved fixed asset management including QR codes for all of our tangible assets. Last but not least I assisted in creating UDI labels (HIBCC) for our medical devices for the US and EU market.</p>
+                    <p>Verantwortlich für die Erstellung des monatlichen internen Berichtswesens nach HGB, des monatlichen Berichtswesens für den japanischen Börsenaktionär nach IFRS (Implementierung und Ist-Berichterstattung) direkt für die Zentrale, Vertriebsberichte, Verkaufspreiskalkulationen für Aktionen und margenkritische Produkte, Budget-/Ist-Vergleiche, Aufwands- und Umsatzprognosen, Jahresbudgetierung, J-SOX (Implementierung, Controlling und Durchführung der Audits), Leitung der jährlichen Inventur, Prozess- und Workflow-Optimierungen sowie Leitung kritischer IT-Implementierungen. Zusätzlich ist er für einen Junior-Controller verantwortlich.</p>
+                    <p>Im Rahmen des Monatsabschlusses führte ich die Bestandsbewertung und den Cut-Off-Test durch und erstellte verschiedene Berichte in Bezug auf Gewinn- und Verlustrechnung, Bilanz, Konsolidierung, Produktsegmente, F&E und Produktion. Zu den wichtigsten Projekten gehören die Einführung einer automatischen Profit-Center-Bewertung zur Unterstützung der Berichte der Vertriebskostenrechnung, die Umstellung der manuellen Bestandsbewertung auf eine automatische Bestandsbewertung. Darüber hinaus habe ich eine verbesserte Verwaltung des Anlagevermögens einschließlich QR-Codes für alle unsere Sachanlagen eingeführt. Nicht zuletzt habe ich bei der Erstellung von UDI-Etiketten (HIBCC) für unsere medizinischen Geräte für den US- und EU-Markt mitgearbeitet.</p>
                 </div>
             </li>
             <li class='work'>
                 <input class='radio' id='work3' name='works' type='radio'>
                 <div>
-                    <label for='work3'>Controller (Schütz Dental GmbH and GDF)</label>
+                    <label for='work3'>Controller (Schütz Dental GmbH und GDF)</label>
                     <span class='date'>Jan. 2015</span>
                     <span class='circle'></span>
                 </div>
                 <div class='timeline-content'>
-                    <p>Sales analysis for sales managers, sales reps and management. Assting annual budgeting process as well as the stock taking. In the finance department I assisted in creating the monthly reporting as well as doing accounts receivable and accounts payable accounting.</p>
+                    <p>Verkaufsanalysen für Verkaufsleiter, Vertriebsmitarbeiter und Management. Unterstützung des jährlichen Budgetierungsprozesses sowie der Bestandsaufnahme. In der Finanzabteilung half ich bei der Erstellung der monatlichen Berichte sowie bei der Debitoren- und Kreditorenbuchhaltung.</p>
                 </div>
             </li>
             <li class='work'>
                 <input class='radio' id='work2' name='works' type='radio'>
                 <div>
-                    <label for='work2'>Training (Schütz Dental GmbH)</label>
+                    <label for='work2'>Ausbildung (Schütz Dental GmbH)</label>
                     <span class='date'>Jul. 2013</span>
                     <span class='circle'></span>
                 </div>
                 <div class='timeline-content'>
-                    <p>My training consisted of various positions in sales, purchasing, accounting and marketing.</p>
+                    <p>Meine Ausbildung bestand aus verschiedenen Positionen in den Bereichen Verkauf, Einkauf, Buchhaltung und Marketing.</p>
                 </div>
             </li>
             <li class='work'>
                 <input class='radio' id='work1' name='works' type='radio'>
                 <div>
-                    <label for='work1'>Sales Clerk (part-time)</label>
+                    <label for='work1'>Verkäufer (part-time)</label>
                     <span class='date'>2006</span>
                     <span class='circle'></span>
                     <span class='circle-end'></span>
                 </div>
                 <div class='timeline-content'>
-                    <p>During my A-Level I became a part-time salesman in a furnitor shop and gained my first experiance with customers and selling products to them.</p>
+                    <p>Während meines Abiturs wurde ich Teilzeitverkäufer in einem Einrichtungshaus und sammelte erste Erfahrungen im Umgang mit Kunden und dem Verkauf von Produkten an diese.</p>
                 </div>
             </li>
         </ul>
@@ -77,43 +77,43 @@
 
 <div class="content">
     <div class="floater">
-        <h2>Business Skills & Experiences</h2>
+        <h2>Berufliche Fähigkeiten und Erfahrungen</h2>
         <ul>
-            <li>Directly managing a team of 9 people
-            <li>Sparring partner of the CEO & shareholders
-            <li>Financial contact person for shareholders, auditors, banks, and other key partners
-            <li>Budgeting (business plan, annual budget, 10 year budget, investments up to 20 million)
-            <li>Project Management (software, processes, product development, ...)
-            <li>Software implementation (digital invoicing, digital allowances, production software, ...)
-            <li>Planning of new business unit & business field
-            <li>Planning of new production building
-            <li>Designing a new product line
-            <li>Handling legal topics (i.e. customer/supplier issues, contracts, IP claims)
-            <li>Reporting (financial, sales, production)
-            <li>Finance audits (IFRS, HGB)
-            <li>Various sales, production and cost analysis incl. reporting, controlling and optimization
-            <li>Workflow optimizations
-            <li>Price calculations and approvals for sales team
-            <li>J-SOX (implementation & auditing)
-            <li>Consolidation (2-3 companies)
-            <li>Loan Management (approx. 9 million)
-            <li>Fleet Management (approx. 35 cars)
-            <li>Risk Management
-            <li>Crisis Management
-            <li>Inventory Management
-            <li>Debit/Credit Accounting
+            <li>Direkte Leitung eines Teams von 9 Mitarbeitern
+            <li>Sparringspartner des CEO und der Anteilseigner
+            <li>Finanzielle Kontaktperson für Anteilseigner, Wirtschaftsprüfer, Banken und andere wichtige Partner
+            <li>Budgetierung (Businesplan, Jahresbudget, 10-Jahres-Budget, Investitionen bis zu 20 Millionen)
+            <li>Projektleitung (Software, Prozesse, Produktentwicklung, ...)
+            <li>Software-Implementierung (digitale Rechnungsstellung, digitale Zulagen, Produktionssoftware, ...)
+            <li>Planung eines neuen Geschäftsbereichs & Geschäftsfeldes
+            <li>Planung eines neuen Produktionsgebäudes
+            <li>Entwicklung einer neuen Produktlinie
+            <li>Bearbeitung rechtlicher Themen (z.B. Kunden-/Lieferantenfragen, Verträge, IP-Ansprüche)
+            <li>Berichtswesen (Finanzen, Vertrieb, Produktion)
+            <li>Finanzprüfungen (IFRS, HGB)
+            <li>Diverse Vertriebs-, Produktions- und Kostenanalysen inkl. Reporting, Controlling und Optimierung
+            <li>Workflow-Optimierungen
+            <li>Preiskalkulationen und -freigaben für das Vertriebsteam
+            <li>J-SOX (Einführung & Prüfung)
+            <li>Konsolidierung (2-3 Gesellschaften)
+            <li>Darlehensverwaltung (ca. 9 Mio.)
+            <li>Fuhrparkmanagement (ca. 35 Fahrzeuge)
+            <li>Risiko-Management
+            <li>Krisenmanagement
+            <li>Inventurleitung
+            <li>Debitoren-/Kreditorenbuchhaltung
             <li>Credit Management
-            <li>M&A (2 M&A processes as key member incl. managing contracts, due diligence, presenting etc.)
-            <li>Transfer Pricing (implementation)
-            <li>Asset Accounting
-            <li>Balance Accounting
-            <li>Payroll Accounting
-            <li>Allowance
-            <li>Cut-off tests
-            <li>Price tests
-            <li>Deferred expenses/income
-            <li>Export Control
-            <li>Responsible for anti-corruption
+            <li>M&A (2 M&A-Prozesse als Schlüsselmitglied inkl. Vertragsmanagement, Due Diligence, Präsentation etc.)
+            <li>Transferpreise/Verrechnungspreise (Implementierung)
+            <li>Anlagenbuchhaltung
+            <li>Bilanzbuchhaltung
+            <li>Lohn- und Gehaltsabrechnung
+            <li>Wertberichtigungen
+            <li>Cut-off-Tests
+            <li>Preis-Tests
+            <li>Abgegrenzte Aufwendungen/Erträge
+            <li>Exportkontrolle
+            <li>Verantwortlich für Anti-Korruption
         </ul>
     </div>
 </div>

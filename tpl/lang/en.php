@@ -5,8 +5,12 @@ return [
     'Solutions' => 'Solutions',
     'About' => 'About',
     'Terms' => 'Terms',
-    'DataProtection' => 'Data Protection',
+    'Privacy' => 'Privacy',
     'Imprint' => 'Imprint',
     'Contact' => 'Contact',
     'more' => 'more',
+    'Price' => 'Price',
+    'Buy' => 'Buy',
+    'InDevelopment' => 'In development',
+    'Phone' => 'Phone',
 ];

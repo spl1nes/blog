@@ -29,7 +29,7 @@
                 <input class='radio' id='work4' name='works' type='radio'>
                 <div>
                     <label for='work4'>Head of Controlling (Schütz Dental GmbH and GDF)</label>
-                    <span class='date'>Okt. 2015</span>
+                    <span class='date'>Oct. 2015</span>
                     <span class='circle'></span>
                 </div>
                 <div class='timeline-content'>

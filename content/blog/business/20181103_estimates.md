@@ -8,13 +8,13 @@ A simple differentiation between the two is the following:
 
 Estimates:
 
-    Estimates are based on a intentional thought process supported by data.
+> Estimates are based on a intentional thought process supported by data.
 
 Guesses:
 
-    Guesses are spontaneous conclusions resulting without primarily considering the underlying data.
+> Guesses are spontaneous conclusions resulting without primarily considering the underlying data.
 
-While both have different meanings it's always possible to guess something or to estimate something. In business situation you usually want to use estimates or at least educated guesses which are somewhere between estimates and guesses. 
+While both have different meanings it's always possible to guess something or to estimate something. In business situation you usually want to use estimates or at least educated guesses which are somewhere between estimates and guesses.
 
 ## Why Are Business Estimates Often Invalid?
 
