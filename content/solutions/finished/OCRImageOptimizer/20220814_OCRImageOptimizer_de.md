@@ -3,11 +3,11 @@
 Optimiere bilder für bessere Texterkennung
 
 <div class="splash">
-    <img alt="Splash" src="/content/solutions/finished/img/OCRImageOptimizer_splash.png">
-    <div class="price">Price: 199.00 EUR</div>
+    <img alt="Splash" src="/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png">
+    <div class="price">Preis: 199,00 EUR</div>
     <div class="purchase">
         <a class="button" href="#">Demo</a>
-        <a class="button" href="#">Purchase</a>
+        <a class="button" href="#">Kaufen</a>
     </div>
 </div>
 

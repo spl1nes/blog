@@ -138,6 +138,10 @@ nav li, footer li {
     padding: .5rem 1rem .5rem 1rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     color: #25acff;
     text-decoration: none;

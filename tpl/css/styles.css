@@ -133,6 +133,7 @@ a.button:hover {
 .preview {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .preview + .preview {
