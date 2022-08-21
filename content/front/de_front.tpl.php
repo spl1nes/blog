@@ -26,7 +26,7 @@ $solutions = $this->data['solutions'] ?? [];
                 <?php if ($count % 2 === 0) : ?>
                 <div class="splash">
                     <a href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">
-                        <img src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
                     </a>
                 </div>
                 <?php endif; ?>
@@ -48,7 +48,7 @@ $solutions = $this->data['solutions'] ?? [];
                 </div>
                 <?php if ($count % 2 !== 0) : ?>
                 <div class="splash">
-                    <img src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                    <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
                 </div>
                 <?php endif; ?>
             </section>

@@ -26,8 +26,7 @@ class FrontController
         $json = \json_decode(\file_get_contents(__DIR__ . '/../content/solutions/list.json'), true);
 
         foreach ($view->data['solutions'] as $key => $solution) {
-            $splash = $solution['name'];
-            $splash = \substr($splash, \stripos($splash, '_') + 1, -3);
+            $splash = $solution['parent'];
 
             $view->data['solutions'][$key]['splash'] = $splash . '_splash.png';
             $view->data['solutions'][$key]['price']  = $json[$splash]['price'] ?? "0.00";
@@ -73,11 +72,14 @@ class FrontController
 
         $parser = new Markdown();
 
+        $subpath       = \explode('/', $article);
+        $subpathLength = \count($subpath);
+
         return [
             'headline' => $headline,
             'summary'  => \str_replace(['<p>', '</p>'], '', $parser->parse($summary)),
-            'path'     => \explode('/', $article)[0],
-            'name'     => \str_replace('.md', '', \explode('/', $article)[1]),
+            'path'     => $subpath[0],
+            'name'     => \str_replace('.md', '', $subpath[$subpathLength - 1]),
             'parent'   => \basename(\dirname($article)),
         ];
     }
@@ -179,8 +181,7 @@ class FrontController
         $json = \json_decode(\file_get_contents(__DIR__ . '/../content/solutions/list.json'), true);
 
         foreach ($view->data['solutions'] as $key => $solution) {
-            $splash = $solution['name'];
-            $splash = \substr($splash, \stripos($splash, '_') + 1, -3);
+            $splash = $solution['parent'];
 
             $view->data['solutions'][$key]['splash'] = $splash . '_splash.png';
             $view->data['solutions'][$key]['price']  = $json[$splash]['price'] ?? "0.00";
@@ -209,13 +210,13 @@ class FrontController
 
         $view->data['solution'] = $this->getArticleSummary(
             __DIR__ . '/../content/solutions',
-            $paths[$length - 2] . '/' . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.md'
+            $paths[$length - 2] . '/' . \substr($paths[$length - 1], 9) . '/' . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.md'
         );
 
         $view->data['title']  = $view->data['solution']['headline'];
 
         $hasJsonLd = \is_file($jsonldPath = __DIR__ . '/../content/solutions/'
-            . $paths[$length - 2] . '/'
+            . $paths[$length - 2] . '/' . \substr($paths[$length - 1], 9) . '/'
             . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.jsonld.php');
 
         if ($hasJsonLd) {
@@ -223,7 +224,7 @@ class FrontController
         }
 
         $view->content = __DIR__ . '/../content/solutions/'
-            . $paths[$length - 2] . '/'
+            . $paths[$length - 2] . '/' . \substr($paths[$length - 1], 9) . '/'
             . $paths[$length - 1] . '_' . ($view->data['lang'] ?? 'en') . '.md';
 
         return $view;

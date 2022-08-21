@@ -15,7 +15,11 @@ $solutions = $this->data['solutions'] ?? [];
                 <?php if ($count % 2 === 0) : ?>
                 <div class="splash" itemprop="image">
                     <a href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">
-                        <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php if (\is_file(__DIR__ . '/../../content/solutions/' . $solution['path'] . '/' . $solution['parent'] . '/img/' . ($solution['splash'] ?? ''))) : ?>
+                            <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php else: ?>
+                            <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+                        <?php endif; ?>
                     </a>
                 </div>
                 <?php endif; ?>
@@ -28,7 +32,7 @@ $solutions = $this->data['solutions'] ?? [];
                             <span itemprop="price"><?= $solution['price'] ?? '' ?></span>
                         </span>
                     <?php else: ?>
-                        <span class="price" class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope><span itemprop="price"><?= $this->data['l11n']['InDevelopment']; ?></span></span>
+                        <span class="price" class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope><span itemprop="price" content="0"><?= $this->data['l11n']['InDevelopment']; ?></span></span>
                     <?php endif; ?>
                     <div class="button-list">
                         <?php if ($solution['parent'] === 'finished') : ?>
@@ -40,7 +44,11 @@ $solutions = $this->data['solutions'] ?? [];
                 <?php if ($count % 2 !== 0) : ?>
                 <div class="splash" itemprop="image">
                     <a href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">
-                        <img alt="Splash" src="/content/solutions/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php if (\is_file(__DIR__ . '/../../content/solutions/' . $solution['path'] . '/' . $solution['parent'] . '/img/' . ($solution['splash'] ?? ''))) : ?>
+                            <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php else: ?>
+                            <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+                        <?php endif; ?>
                     </a>
                 </div>
                 <?php endif; ?>

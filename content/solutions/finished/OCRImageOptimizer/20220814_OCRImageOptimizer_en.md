@@ -3,7 +3,7 @@
 Improve images for better text recognition
 
 <div class="splash">
-    <img alt="Splash" src="/content/solutions/finished/img/OCRImageOptimizer_splash.png">
+    <img alt="Splash" src="/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png">
     <div class="price">Price: 199.00 EUR</div>
     <div class="purchase">
         <a class="button" href="#">Demo</a>
