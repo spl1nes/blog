@@ -5,7 +5,7 @@
     },
     "Jingga":
     {
-        "price": "199.00"
+        "price": "9.99"
     },
     "eMail_Rank":
     {
@@ -14,6 +14,46 @@
     "Newsletter":
     {
         "price": "199.00"
+    },
+    "Bubble_Detector":
+    {
+        "price": "2,900.00"
+    },
+    "Dimension_Validator":
+    {
+        "price": "2,100.00"
+    },
+    "Document_Comparison":
+    {
+        "price": "15.00"
+    },
+    "Fill_Level_Detector":
+    {
+        "price": "2,900.00"
+    },
+    "Forensic_Accounting_Analyzer":
+    {
+        "price": "149.00"
+    },
+    "Label_Validator":
+    {
+        "price": "480.00"
+    },
+    "Online_Resource_Watcher":
+    {
+        "price": "99.00"
+    },
+    "Optical_Scan_Artifact_Remover":
+    {
+        "price": "3,000.00"
+    },
+    "Sales_Analyst":
+    {
+        "price": "250.00"
+    },
+    "Word_Link_Validator":
+    {
+        "price": "45.00"
     },
     "Business_Documentation":
     {

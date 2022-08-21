@@ -29,7 +29,9 @@ class FrontController
             $splash = $solution['parent'];
 
             $view->data['solutions'][$key]['splash'] = $splash . '_splash.png';
-            $view->data['solutions'][$key]['price']  = $json[$splash]['price'] ?? "0.00";
+            $view->data['solutions'][$key]['price']  = ($view->data['lang'] ?? 'en') === 'de'
+                ? \str_replace([',', '.', ':'], [':', ',', '.'], $json[$splash]['price'] ?? '0.00') . ' EUR'
+                : 'EUR ' . $json[$splash]['price'] ?? '0.00';
         }
 
         return $view;
@@ -184,7 +186,9 @@ class FrontController
             $splash = $solution['parent'];
 
             $view->data['solutions'][$key]['splash'] = $splash . '_splash.png';
-            $view->data['solutions'][$key]['price']  = $json[$splash]['price'] ?? "0.00";
+            $view->data['solutions'][$key]['price']  = ($view->data['lang'] ?? 'en') === 'de'
+                ? \str_replace([',', '.', ':'], [':', ',', '.'], $json[$splash]['price'] ?? '0.00') . ' EUR'
+                : 'EUR ' . $json[$splash]['price'] ?? '0.00';
         }
 
         /*

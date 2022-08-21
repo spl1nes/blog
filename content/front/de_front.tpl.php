@@ -26,21 +26,25 @@ $solutions = $this->data['solutions'] ?? [];
                 <?php if ($count % 2 === 0) : ?>
                 <div class="splash">
                     <a href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">
-                        <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php if (\is_file(__DIR__ . '/../../content/solutions/' . $solution['path'] . '/' . $solution['parent'] . '/img/' . ($solution['splash'] ?? ''))) : ?>
+                            <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php else: ?>
+                            <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+                        <?php endif; ?>
                     </a>
                 </div>
                 <?php endif; ?>
                 <div class="product">
                     <h1><?= $solution['headline'] ?? '' ?></h1>
                     <h2><?= $solution['summary'] ?? '' ?></h2>
-                    <?php if ($solution['parent'] === 'finished') : ?>
+                    <?php if ($solution['path'] === 'finished') : ?>
                         <span class="price">
                             <?= $this->data['l11n']['Price']; ?>:
                         <span><?= $solution['price'] ?? '' ?></span>
                         </span>
                     <?php endif; ?>
                     <div class="button-list">
-                        <?php if ($solution['parent'] === 'finished') : ?>
+                        <?php if ($solution['path'] === 'finished') : ?>
                             <a class="button" href="#"><?= $this->data['l11n']['Buy']; ?></a>
                         <?php endif; ?>
                         <a class="button" href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">Infos</a>
@@ -48,7 +52,11 @@ $solutions = $this->data['solutions'] ?? [];
                 </div>
                 <?php if ($count % 2 !== 0) : ?>
                 <div class="splash">
-                    <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php if (\is_file(__DIR__ . '/../../content/solutions/' . $solution['path'] . '/' . $solution['parent'] . '/img/' . ($solution['splash'] ?? ''))) : ?>
+                            <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
+                        <?php else: ?>
+                            <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+                        <?php endif; ?>
                 </div>
                 <?php endif; ?>
             </section>

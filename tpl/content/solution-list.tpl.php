@@ -26,7 +26,7 @@ $solutions = $this->data['solutions'] ?? [];
                 <div class="product">
                     <h1 itemprop="name"><?= $solution['headline'] ?? '' ?></h1>
                     <h2 itemprop="description"><?= $solution['summary'] ?? '' ?></h2>
-                    <?php if ($solution['parent'] === 'finished') : ?>
+                    <?php if ($solution['path'] === 'finished') : ?>
                         <span class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                             <?= $this->data['l11n']['Price']; ?>:
                             <span itemprop="price"><?= $solution['price'] ?? '' ?></span>
@@ -35,7 +35,7 @@ $solutions = $this->data['solutions'] ?? [];
                         <span class="price" class="price" itemprop="offers" itemtype="https://schema.org/Offer" itemscope><span itemprop="price" content="0"><?= $this->data['l11n']['InDevelopment']; ?></span></span>
                     <?php endif; ?>
                     <div class="button-list">
-                        <?php if ($solution['parent'] === 'finished') : ?>
+                        <?php if ($solution['path'] === 'finished') : ?>
                             <a class="button" href="#"><?= $this->data['l11n']['Buy']; ?></a>
                         <?php endif; ?>
                         <a class="button" href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">Infos</a>
