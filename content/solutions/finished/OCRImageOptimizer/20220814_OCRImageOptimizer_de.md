@@ -11,44 +11,31 @@ Optimiere bilder für bessere Texterkennung
     </div>
 </div>
 
-## Summary
+## Zusammenfassung
 
-The OCR Image Optimizer is a command line tool for optimizing badly scanned or photographed documents for better OCR performance on Windows.
+Der OCR Image Optimizer ist ein Befehlszeilen-Tool zur Optimierung schlecht gescannter oder fotografierter Dokumente für eine bessere OCR-Leistung unter Windows.
 
-Optimization features include color changes to black and white, removing shadows, image rotation, removal of unneccessary areas and image sharpening. The software does not include a text recognition program (OCR).
+Zu den Optimierungsfunktionen gehören die Umwandlung von Farbe in Schwarzweiß, das Entfernen von Schatten, das Drehen von Bildern, das Entfernen überflüssiger Bereiche und das Schärfen von Bildern. Die Software enthält kein Texterkennungsprogramm (OCR).
 
-## Scenarios
+## Szenarien
 
-A user makes a photo of an invoice. The document in the image is slightly tilted and has some shadows which make it difficult for your OCR software to recognize (OCR software is not included). You run the OCR Image Optimizer and receive a improved image for better OCR results.
+Ein Benutzer macht ein Foto von einer Rechnung. Das Dokument auf dem Bild ist leicht geneigt und weist einige Schatten auf, die die Erkennung durch Ihre OCR-Software erschweren (OCR-Software ist nicht enthalten). Sie führen den OCR Image Optimizer aus und erhalten ein verbessertes Bild für bessere OCR-Ergebnisse.
 
-If you scan a document as PDF you need to convert this document form PDF to an image (this software is not included, you may use pdftoppm for example) before you pass this image as input to the optimizer.
+Wenn Sie ein Dokument als PDF scannen, müssen Sie dieses Dokument von PDF in ein Bild umwandeln (diese Software ist nicht enthalten, Sie können z.B. pdftoppm verwenden), bevor Sie dieses Bild als Eingabe an den Optimierer übergeben.
 
-## Features
+## Funktionen
 
-* Fast
-* Manually define which optimizations should get executed
-* Easy to install and use
-
-## Dependencies
-
-Company server:
-
-* Webserver: Apache2
-* Php 8.1
-* Database: MySQL or MariaDB.
-
-Customer PC/Laptop:
-
-* Windows
-* Internet
+* Schnell
+* Manuell festlegen, welche Optimierungen ausgeführt werden sollen
+* Einfach zu installieren und zu benutzen
 
 ## Legal
 
-* [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [AGBs](/de/terms)
+* [Lizenz](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
 
-### Disclaimer
+### Haftungsausschluss
 
-You can use the demo application for some tests in order to see if the software fulfills your needs.
+Sie können die Demo-Anwendung für Tests verwenden, um zu sehen, ob die Software Ihre Anforderungen erfüllt.
 
-> The demo application prints a water mark on the image.
+> Die Demoanwendung druckt ein Wasserzeichen auf das Bild.

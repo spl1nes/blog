@@ -29,19 +29,6 @@ If you scan a document as PDF you need to convert this document form PDF to an i
 * Manually define which optimizations should get executed
 * Easy to install and use
 
-## Dependencies
-
-Company server:
-
-* Webserver: Apache2
-* Php 8.1
-* Database: MySQL or MariaDB.
-
-Customer PC/Laptop:
-
-* Windows
-* Internet
-
 ## Legal
 
 * [Terms of Service](/en/terms)

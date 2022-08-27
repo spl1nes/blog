@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "Bubble Detector",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/content/solutions/finished/img/Bubble_Detector_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Automatic bubble detection through image recognition",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "199.00",
+        "price": "2,900.00",
         "availability": "https://schema.org/InStock"
     }
 }';

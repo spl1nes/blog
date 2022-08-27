@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "Online Resource Watcher",
     "image": [
         "/content/solutions/finished/img/Business_Documentation_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Beobachte und vergleiche Online-Quellen automatisch",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "199.00",
+        "price": "99.00",
         "availability": "https://schema.org/InStock"
     }
 }';

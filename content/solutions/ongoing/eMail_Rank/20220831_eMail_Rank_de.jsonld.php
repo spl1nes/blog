@@ -3,11 +3,11 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "eMail Rang",
     "image": [
         "/content/solutions/finished/img/Business_Documentation_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Analisiere Personen-Verhältnisse und Ränge auf Basis von Emails",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",

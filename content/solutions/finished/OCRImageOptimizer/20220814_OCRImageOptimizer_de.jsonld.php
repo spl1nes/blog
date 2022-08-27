@@ -3,11 +3,11 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "OCR Image Optimizer",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/content/solutions/finished/TestReportGenerator/img/TestReportGenerator_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Optimiere bilder für bessere Texterkennung",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",

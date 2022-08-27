@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "Dokumentenvergleich",
     "image": [
         "/content/solutions/finished/img/Business_Documentation_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Vergleiche Dokumente und Texte auf Unterschiede und Änderungen",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "199.00",
+        "price": "15.00",
         "availability": "https://schema.org/InStock"
     }
 }';

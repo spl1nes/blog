@@ -7,11 +7,11 @@ return '{
     "image": [
         "/content/solutions/finished/img/Sales_Analyst_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Einfaches BI tool zur Umsatzanalyse",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "199.00",
+        "price": "490.00",
         "availability": "https://schema.org/InStock"
     }
 }';

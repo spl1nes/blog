@@ -191,6 +191,10 @@ a {
     margin: 1rem 0 1rem 0;
 }
 
+.content h4 {
+    margin: 1rem 0 1rem 0;
+}
+
 .content a {
     text-decoration: underline;
 }

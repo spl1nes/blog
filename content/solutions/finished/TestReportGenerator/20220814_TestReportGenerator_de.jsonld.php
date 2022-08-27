@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "OCR Image Optimizer",
+    "name": "Test Report Generator",
     "image": [
         "/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png"
     ],
-    "description": "Improve images for better text recognition",
+    "description": "Generiert einen localisierte Bericht basierend auf Testergebnisse",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "199.00",
+        "price": "0.00",
         "availability": "https://schema.org/InStock"
     }
 }';

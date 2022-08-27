@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "Word Link Validierer",
     "image": [
         "/content/solutions/finished/img/Business_Documentation_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Validiere Links in Word Dateien",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "199.00",
+        "price": "45.00",
         "availability": "https://schema.org/InStock"
     }
 }';

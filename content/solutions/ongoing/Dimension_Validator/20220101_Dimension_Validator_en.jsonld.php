@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "Dimension and Object Validator",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/content/solutions/finished/img/Dimension_Validator_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "Automatic dimension validation through image detection",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "199.00",
+        "price": "3,500.00",
         "availability": "https://schema.org/InStock"
     }
 }';

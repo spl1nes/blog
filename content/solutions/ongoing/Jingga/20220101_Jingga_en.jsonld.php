@@ -3,11 +3,11 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Business Documentation",
+    "name": "Jingga",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/content/solutions/ongoing/Jingga/img/Jingga_splash.png"
     ],
-    "description": "This is a test description",
+    "description": "CRM, ERP, Intranet and more for your business",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",

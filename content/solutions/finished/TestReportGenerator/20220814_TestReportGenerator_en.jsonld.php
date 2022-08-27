@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Forensic Accounting Analyzer",
+    "name": "Test Report Generator",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png"
     ],
-    "description": "Prüfung der Finanzzahlen durch forensische Methoden",
+    "description": "Automatically generates a localized report from test outputs",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "349.00",
+        "price": "0.00",
         "availability": "https://schema.org/InStock"
     }
 }';
