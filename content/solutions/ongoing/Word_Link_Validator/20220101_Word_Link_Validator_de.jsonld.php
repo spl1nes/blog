@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Word Link Validierer",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Validiere Links in Word Dateien",
     "offers": {

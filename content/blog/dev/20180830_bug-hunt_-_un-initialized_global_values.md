@@ -35,6 +35,6 @@ As a solution I set `auto_globals_jit` to `0` in the `php.ini` which always prop
 * I was not using variable variables
 * The complexity of the application at least from my perspective was low and shouldn't have caused hiccups for the compiler
 * The execution time was fast
-* This bug only sometimes ocurred (even if nothing was changed request wise)
+* This bug only sometimes occurred (even if nothing was changed request wise)
 
 Fast forward some weeks/months I re-installed Apache2 and PHP and didn't have this problem any longer.

@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Fill Level Detector",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Detect the fill level through image detection",
     "offers": {

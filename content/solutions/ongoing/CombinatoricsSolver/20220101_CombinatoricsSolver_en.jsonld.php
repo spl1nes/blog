@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Füllstandermittler",
+    "name": "Combinatorics Solver",
     "image": [
         "/tpl/img/placeholder_splash.png"
     ],
-    "description": "Erkenne den Füllstand durch Bilderkennung",
+    "description": "Validate links in word files",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "2,900.00",
+        "price": "99.00",
         "availability": "https://schema.org/InStock"
     }
 }';

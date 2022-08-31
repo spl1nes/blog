@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Newsletter",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Sende Newsletter und Werbung direkt zu Kunden-Arbeitsplätze",
     "offers": {

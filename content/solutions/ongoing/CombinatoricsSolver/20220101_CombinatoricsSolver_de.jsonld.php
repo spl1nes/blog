@@ -3,15 +3,15 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Füllstandermittler",
+    "name": "Kombinatorik Solver",
     "image": [
         "/tpl/img/placeholder_splash.png"
     ],
-    "description": "Erkenne den Füllstand durch Bilderkennung",
+    "description": "Finde Zahlen, die eine definierte Gesamtsumme ergeben",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "2,900.00",
+        "price": "99.00",
         "availability": "https://schema.org/InStock"
     }
 }';

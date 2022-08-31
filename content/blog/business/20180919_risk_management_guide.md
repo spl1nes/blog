@@ -6,7 +6,7 @@ One of the important documents for risk management is a risk management guide wh
 
 ### Risk
 
-Risks are characterized by probability of occurrence and consequence. Through risk management, GDF applies resources to lessen the likelihood of a future event occurring and/or the consequence should it occur. As risks increase in probability, GDF should anticipate that the events will occur and should put plans in place early to mitigate the consequences.
+Risks are characterized by probability of occurrence and consequence. Through risk management, the organization applies resources to lessen the likelihood of a future event occurring and/or the consequence should it occur. As risks increase in probability, the organization should anticipate that the events will occur and should put plans in place early to mitigate the consequences.
 
 ### Risk Components
 
@@ -33,7 +33,7 @@ The following figure depicts a four-step management process.
 ### Top-Level Guidelines for Effective Risk Management
 
 * Assess the causes of risks and develop strategies to manage these risks
-    * Identify as early as possible, and intensively manage those that critically affect SDG.
+    * Identify as early as possible, and intensively manage those that critically affect the organization.
     * Include tests and evaluations as part of the risk management process.
 * Include industry knowledge in risk management. Likelihood and consequence should be compared with experiences from similar industries.
 * Use a proactive, structured risk assessment and analysis to identify and analyze root causes.
@@ -41,7 +41,7 @@ The following figure depicts a four-step management process.
     * Establish risk mitigation plans and obtain resources for such plans
 * Include internal processes as part of risk assessment.
 * Clearly define a set of evaluation criteria for assigning risk ratings for identified root causes.
- 
+
 ## Risk Identification
 
 The intent of risk identification is to answer the question “What can go wrong?” by:
@@ -59,7 +59,7 @@ Risk identification is the activity that examines each element of the company to
 * Compliance Risk
 * Strategic Risk
 * Other Risk
- 
+
 ## Risk Analysis
 
 Risk analysis answers the question “What are the likelihood and consequence of the risk?” and “How high is the risk?”. The following tasks are part of the risk analysis:

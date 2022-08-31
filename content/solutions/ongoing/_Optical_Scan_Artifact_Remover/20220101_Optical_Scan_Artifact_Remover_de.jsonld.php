@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Business Documentation",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "This is a test description",
     "offers": {

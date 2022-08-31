@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Forensic Accounting Analyzer",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Prüfung der Finanzzahlen durch forensische Methoden",
     "offers": {

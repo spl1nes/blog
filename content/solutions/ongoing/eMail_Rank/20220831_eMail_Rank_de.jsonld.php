@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "eMail Rang",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Analisiere Personen-Verhältnisse und Ränge auf Basis von Emails",
     "offers": {

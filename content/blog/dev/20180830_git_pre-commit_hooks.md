@@ -302,7 +302,7 @@ Additional pre-commit checks could be:
 * Check if html tags are implemented correctly (e.g. images must have a alt attribute, inline styles are not allowed etc..)
 * JavaScript linting
 * CSS linting
-* Project specific checks (e.g. no hard coded localization, only allow svg and png images, every model needs to have a unit test, ...)
+* Project specific checks (e.g. no hard coded localization, only allow SVG and PNG images, every model needs to have a unit test, ...)
 
 ### Some Snippets For Html
 

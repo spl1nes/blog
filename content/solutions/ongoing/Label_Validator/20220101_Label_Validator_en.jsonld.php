@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Label Validator",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Automatic label validation through image and text recognition",
     "offers": {

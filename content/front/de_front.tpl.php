@@ -44,7 +44,7 @@ $solutions = $this->data['solutions'] ?? [];
                         </span>
                     <?php endif; ?>
                     <div class="button-list">
-                        <?php if ($solution['path'] === 'finished') : ?>
+                        <?php if ($solution['path'] === 'finished' && (float) ($solution['price'] ?? 0.00) !== 0.0) : ?>
                             <a class="button" href="#"><?= $this->data['l11n']['Buy']; ?></a>
                         <?php endif; ?>
                         <a class="button" href="/<?= $this->data['lang']; ?>/solution/item/<?= \urlencode($solution['path'] ?? '') ?>/<?= \urlencode(\substr($solution['name'] ?? '', 0, -3)) ?>">Infos</a>

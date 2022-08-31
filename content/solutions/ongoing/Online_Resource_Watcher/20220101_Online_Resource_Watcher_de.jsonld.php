@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Online Resource Watcher",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Beobachte und vergleiche Online-Quellen automatisch",
     "offers": {

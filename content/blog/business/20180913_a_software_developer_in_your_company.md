@@ -24,7 +24,7 @@ This can be helpful for structuring product segmentations, profit centers and re
 
 After reaching a certain company size you'll find yourself in the need for custom analysis and reports very often. These reports are usually expensive to create by your software vendor, take a long time until implementation or don't really reflect what you're looking for. 
 
-A developer who works in a company has a much better understanding about the needs and can implement them accordingly. The implementation is also faster (assuming the developer had enough time to get to know the IT system, available information and databases). Sometimes these solutions are as simple as making a database request and just displaying on a webpage, exporting it as pdf or excel file. This can be achieved in a couple of minutes compared to hours of discussion with a software vendor who charges a high fee.
+A developer who works in a company has a much better understanding about the needs and can implement them accordingly. The implementation is also faster (assuming the developer had enough time to get to know the IT system, available information and databases). Sometimes these solutions are as simple as making a database request and just displaying on a web page, exporting it as pdf or excel file. This can be achieved in a couple of minutes compared to hours of discussion with a software vendor who charges a high fee.
 
 Great projects/tasks for an in-house developer are:
 
@@ -35,7 +35,7 @@ Great projects/tasks for an in-house developer are:
 
 For a developer to be cost effective a broad spectrum of simple/fast and long running projects is required. Otherwise it is better to outsource these tasks or let "normal" employees deal with them. 
 
-The amount of work and therefore costs which can be saved through optimizations in many companies is significant. A software developer is able to give this fresh input from a completely different and maybe unorthodox point of view while also being able to implement the required software solutions. The amount of work hours which can be saved through software automatization can easily cover for the costs of a developer in many companies.
+The amount of work and therefore costs which can be saved through optimizations in many companies is significant. A software developer is able to give this fresh input from a completely different and maybe unorthodox point of view while also being able to implement the required software solutions. The amount of work hours which can be saved through software automation can easily cover for the costs of a developer in many companies.
 
 It's also important to note that the results will be much better if the software developer receives a comprehensive training by all departments and gets to see and experience the different workflows.
 
@@ -54,9 +54,9 @@ It's also important to note that the results will be much better if the software
 ## Potential Positive Effect For The Company
 
 * Workflow optimizations
-* Reduced costs due to automatization
-* Reduced errors due to automatization
-* Faster results due to automatization
+* Reduced costs due to automation
+* Reduced errors due to automation
+* Faster results due to automation
 * Better architecture of business components (e.g. product segments, profit center, etc.)
 * In-house consultant for new IT solutions
 * Translator for negotiations with IT vendors

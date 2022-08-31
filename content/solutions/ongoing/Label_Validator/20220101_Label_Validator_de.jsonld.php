@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Etiketten Validierer",
     "image": [
-        "/content/solutions/finished/img/Business_Documentation_splash.png"
+        "/tpl/img/placeholder_splash.png"
     ],
     "description": "Automatische Etiketten-Validierung durch Bild- und Text-Erkennung",
     "offers": {
