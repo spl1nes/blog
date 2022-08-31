@@ -1,6 +1,5 @@
 User-Agent: *
 Disallow:
-Disallow: /js
-Disallow: /css
-Disallow: /img
-Disallow: /tpl
+Disallow: /app
+Disallow: /content
+Disallow: /resources
