@@ -94,7 +94,7 @@ The purchase includes the right to create copies or create derived work from the
 
 #### Not included
 
-Some of the documents in the business documentation are not part of the purchased license since they are licensed and provided from third party providers. These documents are are very few and most likely still fine to use. List of not included documents in the purchase:
+Some of the documents in the business documentation are not part of the purchased license since they are licensed and provided from third party providers. These documents are very few and most likely still fine to use. List of not included documents in the purchase:
 
 * Code of Conduct
 * Individual Contributor License Agreement ("CLA")

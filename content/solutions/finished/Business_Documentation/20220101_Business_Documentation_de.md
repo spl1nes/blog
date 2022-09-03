@@ -88,7 +88,7 @@ Prozess | IT inkl. Risikokontrollmatrix und Flussdiagramm | Prozess | IT inkl. R
 
 ### Haftungsausschluss
 
-Die Dokumente werden wie besehen zur Verfügung gestellt, Sie haben die Möglichkeit, diese Dokumente vor dem Kauf zu prüfen. Wir übernehmen keine Garantie für die Vollständigkeit oder Richtigkeit des Inhalts der Geschäftsunterlagen. In keinem Fall haften wir oder der Urheberrechtsinhaber für Ansprüche, Schäden oder sonstige Haftungen, sei es aus Vertrag, unerlaubter Handlung oder anderweitig, die sich aus der Software, der Dokumentation oder der Nutzung oder dem sonstigen Umgang mit der Software oder der Dokumentation ergeben oder damit in Zusammenhang stehen.
+Die Dokumente werden wie besehen zur Verfügung gestellt, Sie haben die Möglichkeit, diese Dokumente vor dem Kauf zu prüfen. Wir übernehmen keine Garantie für die Vollständigkeit oder Richtigkeit. In keinem Fall haften wir oder der Urheberrechtsinhaber für Ansprüche oder Schäden in jeglicher Form, die sich aus der Software, der Dokumentation oder der Nutzung oder dem sonstigen Umgang mit der Software oder der Dokumentation ergeben oder damit in Zusammenhang stehen.
 
 ### Lizenz
 
@@ -96,7 +96,7 @@ Der Kauf beinhaltet das Recht, Kopien zu erstellen oder abgeleitete Arbeiten aus
 
 #### Nicht enthalten
 
-Einige der Dokumente in der Geschäftsdokumentation sind nicht Teil der erworbenen Lizenz, da sie von Drittanbietern lizenziert und bereitgestellt werden. Es handelt sich dabei um sehr wenige Dokumente, die Sie höchstwahrscheinlich trotzdem verwenden können. Liste der im Kauf nicht enthaltenen Dokumente:
+Einige der Dokumente in der Geschäftsdokumentation sind nicht Teil der erworbenen Lizenz, da sie von Drittanbietern lizenziert und bereitgestellt werden. Es handelt sich dabei um sehr wenige Dokumente, die Sie höchstwahrscheinlich trotzdem verwenden können unter beachtung der Drittanbieter-Lizenz. Liste der im Kauf nicht enthaltenen Dokumente:
 
 * Verhaltenskodex
 * Lizenzvertrag für Einzelpersonen ("CLA")
