@@ -9,7 +9,7 @@ BASE_PATH="/var/www/html"
 ROOT_PATH="/var/www/html/blog"
 BUILD_PATH="/var/www/html/blog/build/bin"
 
-mkdir -p ${BASE_PATH}
+mkdir -p ${BUILD_PATH}
 
 echo "#################################################"
 echo "Update blog"
