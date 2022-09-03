@@ -52,12 +52,12 @@ echo ""
 zip -r ${BUILD_PATH}/download/Organization_Guide.zip ${BUILD_PATH}/Organization-Guide
 
 # OCR
-zip ${BUILD_PATH}/download/OCRImageOptimizerApp_Demo.zip ${BUILD_PATH}/OCRImageOptimizerApp/bin/Demo/OCRImageOptimizerApp.exe
-zip ${BUILD_PATH}/download/OCRImageOptimizerApp.zip ${BUILD_PATH}/OCRImageOptimizerApp/bin/Release/OCRImageOptimizerApp.exe
+zip ${BUILD_PATH}/download/OCRImageOptimizerApp_Demo.zip ${BUILD_PATH}/OCRImageOptimizerApp/README.md ${BUILD_PATH}/OCRImageOptimizerApp/bin/x64/Demo/OCRImageOptimizerApp.exe
+zip ${BUILD_PATH}/download/OCRImageOptimizerApp.zip ${BUILD_PATH}/OCRImageOptimizerApp/README.md ${BUILD_PATH}/OCRImageOptimizerApp/bin/x64/Release/OCRImageOptimizerApp.exe
 
 # TestReportGenerator.git
 php ${BUILD_PATH}/TestReportGenerator/build_phar.php
-zip ${BUILD_PATH}/download/TestReportGenerator.zip ${BUILD_PATH}/TestReportGenerator/testreportgenerator.phar
+zip ${BUILD_PATH}/download/TestReportGenerator.zip ${BUILD_PATH}/TestReportGenerator/README.md ${BUILD_PATH}/TestReportGenerator/testreportgenerator.phar
 rm ${BUILD_PATH}/TestReportGenerator/testreportgenerator.phar
 
 cd ${BASE_PATH}

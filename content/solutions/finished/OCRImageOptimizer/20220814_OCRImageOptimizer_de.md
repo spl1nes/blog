@@ -6,7 +6,7 @@ Optimiere bilder für bessere Texterkennung
     <img alt="Splash" src="/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png">
     <div class="price">Preis: 199,00 EUR</div>
     <div class="purchase">
-        <a class="button" href="#">Demo</a>
+        <a class="button" href="/api/download?key=<?= \urlencode('T0NSSW1hZ2VPcHRpbWl6ZXJBcHBfRGVtbw=='); ?>">Demo</a>
         <a class="button" href="#">Kaufen</a>
     </div>
 </div>
@@ -39,3 +39,7 @@ Wenn Sie ein Dokument als PDF scannen, müssen Sie dieses Dokument von PDF in ei
 Sie können die Demo-Anwendung für Tests verwenden, um zu sehen, ob die Software Ihre Anforderungen erfüllt.
 
 > Die Demoanwendung druckt ein Wasserzeichen auf das Bild.
+
+## Referenzen
+
+* [Installation & Verwendung](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/README.md)

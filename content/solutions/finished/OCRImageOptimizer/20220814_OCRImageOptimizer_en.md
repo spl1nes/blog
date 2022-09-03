@@ -6,7 +6,7 @@ Improve images for better text recognition
     <img alt="Splash" src="/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png">
     <div class="price">Price: EUR 199.00</div>
     <div class="purchase">
-        <a class="button" href="#">Demo</a>
+        <a class="button" href="/api/download?key=<?= \urlencode('T0NSSW1hZ2VPcHRpbWl6ZXJBcHBfRGVtbw=='); ?>">Demo</a>
         <a class="button" href="#">Buy</a>
     </div>
 </div>
@@ -39,3 +39,7 @@ If you scan a document as PDF you need to convert this document form PDF to an i
 You can use the demo application for some tests in order to see if the software fulfills your needs.
 
 > The demo application prints a water mark on the image.
+
+## References
+
+* [Installation & usage](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/README.md)

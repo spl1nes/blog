@@ -8,7 +8,7 @@ class ApiController
     public function downloadView(View $view) : View
     {
         $view->template    = __DIR__ . '/../tpl/download.tpl.php';
-        $view->subtemplate = \base64_decode($_GET['download']);
+        $view->subtemplate = \base64_decode(\urldecode($_GET['key'] ?? ''));
 
         $levels = \ob_get_level();
         for ($i = 0; $i < $levels; ++$i) {
