@@ -6,6 +6,7 @@ Automatically generates a localized report from test outputs
     <img alt="Splash" src="/content/solutions/finished/TestReportGenerator/img/TestReportGenerator_splash.png">
     <div class="price">Price: EUR 0.00</div>
     <div class="purchase">
+        <a class="button" href="https://raw.githubusercontent.com/Karaka-Management/TestReportGenerator/master/tests/TestReport.pdf">Demo</a>
         <a class="button" href="https://github.com/Karaka-Management/TestReportGenerator/archive/refs/heads/master.zip">Download</a>
     </div>
 </div>
