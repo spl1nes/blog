@@ -10,3 +10,5 @@ node_modules
 *.cache
 *.phar
 *.xml
+.git-credentials
+bin
