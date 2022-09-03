@@ -12,4 +12,5 @@ return [
     '.*?/terms'     => 'FrontController:termsView',
     '.*?/privacy'   => 'FrontController:privacyView',
     '.*?/contact'   => 'FrontController:contactView',
+    '.*?/api/download' => 'ApiController:downloadView',
 ];
