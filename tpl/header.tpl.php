@@ -8,6 +8,6 @@
       <li>|
       <li><a href="/<?= $this->data['lang']; ?>/about"><?= $this->data['l11n']['About']; ?></a>
       <li>|
-      <li><a href="/<?= $this->data['lang'] === 'en' ? 'de' : 'en'; ?><?= $this->data['url']['path']; ?>"><?php if ($this->data['lang'] === 'en') : ?>🇩🇪<?php else : ?>🇺🇸 🇬🇧 🇦🇺 🇨🇦<?php endif; ?></a>
+      <li><a href="/<?= $this->data['lang'] === 'en' ? 'de' : 'en'; ?><?= $this->data['url']['path']; ?>"><?php if ($this->data['lang'] === 'en') : ?><img height="13px" alt="German" src="/tpl/img/flag_de.png"><?php else : ?><img height="13px" alt="German" src="/tpl/img/flag_en.png"><?php endif; ?></a>
    </ul>
 </nav>
