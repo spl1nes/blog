@@ -42,6 +42,7 @@ cd ${BUILD_PATH}
 git clone -b master https://github.com/Karaka-Management/Organization-Guide.git >/dev/null
 git clone -b master https://github.com/Karaka-Management/OCRImageOptimizerApp.git >/dev/null
 git clone -b master https://github.com/Karaka-Management/TestReportGenerator.git >/dev/null
+git clone -b master https://github.com/Karaka-Management/WordLinkValidatorApp.git >/dev/null
 
 echo "#################################################"
 echo "Build projects"
@@ -59,6 +60,10 @@ zip ${BUILD_PATH}/download/OCRImageOptimizerApp.zip ${BUILD_PATH}/OCRImageOptimi
 php ${BUILD_PATH}/TestReportGenerator/build_phar.php
 zip ${BUILD_PATH}/download/TestReportGenerator.zip ${BUILD_PATH}/TestReportGenerator/README.md ${BUILD_PATH}/TestReportGenerator/testreportgenerator.phar
 rm ${BUILD_PATH}/TestReportGenerator/testreportgenerator.phar
+
+# OCR
+zip ${BUILD_PATH}/download/WordLinkValidatorApp_Demo.zip ${BUILD_PATH}/WordLinkValidatorApp/README.md ${BUILD_PATH}/WordLinkValidatorApp/bin/Demo/net6.0-windows/
+zip ${BUILD_PATH}/download/WordLinkValidatorApp.zip ${BUILD_PATH}/WordLinkValidatorApp/README.md ${BUILD_PATH}/WordLinkValidatorApp/bin/Release/net6.0-windows/
 
 cd ${BASE_PATH}
 

@@ -3,7 +3,7 @@
 Validate links in word files
 
 <div class="splash">
-    <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img alt="Splash" src="/content/solutions/finished/Word_Link_Validator/img/Word_Link_Validator_splash.png">
     <div class="price">Price: EUR 45.00</div>
     <div class="purchase">
         <!--<a class="button" href="#">Demo</a>
@@ -19,6 +19,7 @@ The Word Link Validator application validates links in word files by checking if
 
 * Validate multiple Word files
 * Validate the availability of local and online links
+* Validate links in the header, footer, content, comments and endnotes/footnotes
 
 ## Legal
 

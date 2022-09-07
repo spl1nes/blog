@@ -6,7 +6,7 @@ Improve images for better text recognition
     <img alt="Splash" src="/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png">
     <div class="price">Price: EUR 199.00</div>
     <div class="purchase">
-        <a class="button" href="/api/download?key=<?= \urlencode('T0NSSW1hZ2VPcHRpbWl6ZXJBcHBfRGVtbw=='); ?>">Demo</a>
+        <a class="button" rel="download" type="application/zip" href="/api/download?key=<?= \urlencode('T0NSSW1hZ2VPcHRpbWl6ZXJBcHBfRGVtbw=='); ?>">Demo</a>
         <a class="button" href="#">Buy</a>
     </div>
 </div>

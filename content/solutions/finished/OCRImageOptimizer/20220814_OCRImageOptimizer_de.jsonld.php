@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "OCR Image Optimizer",
     "image": [
-        "/content/solutions/finished/TestReportGenerator/img/TestReportGenerator_splash.png"
+        "/content/solutions/finished/OCRImageOptimizer/img/OCRImageOptimizer_splash.png"
     ],
     "description": "Optimiere bilder für bessere Texterkennung",
     "offers": {

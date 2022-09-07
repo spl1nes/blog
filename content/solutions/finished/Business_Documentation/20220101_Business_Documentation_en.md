@@ -6,7 +6,7 @@ Business processes, guidelines and templates
     <img alt="Splash" src="/content/solutions/finished/Business_Documentation/img/Business_Documentation_splash.png">
     <div class="price">Price: EUR 99.00</div>
     <div class="purchase">
-        <a class="button" href="https://github.com/Karaka-Management/Organization-Guide">Demo</a>
+        <a class="button" rel="external" href="https://github.com/Karaka-Management/Organization-Guide">Demo</a>
         <a class="button" href="#">Buy</a>
     </div>
 </div>
