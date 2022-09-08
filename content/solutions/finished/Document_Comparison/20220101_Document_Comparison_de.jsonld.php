@@ -3,11 +3,11 @@
 return '{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Document Comparison",
+    "name": "Dokumentenvergleich",
     "image": [
-        "/tpl/img/placeholder_splash.png"
+        "/content/solutions/finished/Document_Comparison/img/Document_Comparison_splash.png"
     ],
-    "description": "Compare documents and texts for differences and changes",
+    "description": "Vergleiche Dokumente und Texte auf Unterschiede und Änderungen",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",

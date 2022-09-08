@@ -3,11 +3,11 @@
 Compare documents and texts for differences and changes
 
 <div class="splash">
-    <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img alt="Splash" src="/content/solutions/finished/Document_Comparison/img/Document_Comparison_splash.png">
     <div class="price">Price: EUR 15.00</div>
     <div class="purchase">
-        <!--<a class="button" href="#">Demo</a>
-        <a class="button" href="#">Buy</a>-->
+        <a class="button" rel="download" type="application/zip" href="/api/download?key=<?= \urlencode('RG9jdW1lbnRDb21wYXJpc29uQXBwX0RlbW8='); ?>">Demo</a>
+        <a class="button" href="#">Buy</a>
     </div>
 </div>
 

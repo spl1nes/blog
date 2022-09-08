@@ -6,8 +6,8 @@ Validate links in word files
     <img alt="Splash" src="/content/solutions/finished/Word_Link_Validator/img/Word_Link_Validator_splash.png">
     <div class="price">Price: EUR 45.00</div>
     <div class="purchase">
-        <!--<a class="button" href="#">Demo</a>
-        <a class="button" href="#">Buy</a>-->
+        <a class="button" rel="download" type="application/zip" href="/api/download?key=<?= \urlencode('V29yZExpbmtWYWxpZGF0b3JBcHBfRGVtbw=='); ?>">Demo</a>
+        <a class="button" href="#">Buy</a>
     </div>
 </div>
 
