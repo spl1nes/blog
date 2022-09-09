@@ -15,6 +15,8 @@ Vergleiche Dokumente und Texte auf Unterschiede und Änderungen
 
 Die Anwendung Dokumentenvergleich vergleicht Texte und hebt die Unterschiede hervor, so dass sich Änderungen leicht erkennen lassen.
 
+Die Anwendung zeigt im linken Textfeld den ursprünglichen Text und im rechten Textfeld den Text an, mit dem Sie ihn vergleichen möchten. Nach dem Vergleich der beiden Texte werden auf der linken Seite die entfernten Textelemente rot und auf der rechten Seite die hinzugefügten Textelemente grün markiert.
+
 ## Funktionen
 
 * Vergleich von Word-Dokumenten (Word 2007 oder neuer)

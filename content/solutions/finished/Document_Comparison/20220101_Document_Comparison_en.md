@@ -15,6 +15,8 @@ Compare documents and texts for differences and changes
 
 The Document Comparison application compares texts and highlights the differences making it easy to identify changes.
 
+The application shows in the left text field the original text and in the right text field the text you want it to compare with. After compring the two texts the left side will show the removed text elements marked in red and the right side will show the added text elements marked in green.
+
 ## Features
 
 * Compare Word documents (Word 2007 or newer)
