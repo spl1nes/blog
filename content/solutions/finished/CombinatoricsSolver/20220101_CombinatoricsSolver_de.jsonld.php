@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Kombinatorik Solver",
     "image": [
-        "/tpl/img/placeholder_splash.png"
+        "/content/solutions/finished/CombinatoricsSolver/img/CombinatoricsSolver_splash.png"
     ],
     "description": "Finde Zahlen, die eine definierte Gesamtsumme ergeben",
     "offers": {

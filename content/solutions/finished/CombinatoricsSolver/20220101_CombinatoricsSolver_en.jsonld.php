@@ -5,7 +5,7 @@ return '{
     "@type": "Product",
     "name": "Combinatorics Solver",
     "image": [
-        "/tpl/img/placeholder_splash.png"
+        "/content/solutions/finished/CombinatoricsSolver/img/CombinatoricsSolver_splash.png"
     ],
     "description": "Validate links in word files",
     "offers": {

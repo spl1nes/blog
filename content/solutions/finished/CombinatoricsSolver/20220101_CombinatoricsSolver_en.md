@@ -3,17 +3,17 @@
 Find numbers which make up a defined total amount
 
 <div class="splash">
-    <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img alt="Splash" src="/content/solutions/finished/CombinatoricsSolver/img/CombinatoricsSolver_splash.png">
     <div class="price">Price: EUR 99.00</div>
     <div class="purchase">
-        <!--<a class="button" href="#">Demo</a>
-        <a class="button" href="#">Buy</a>-->
+        <a class="button" rel="download" type="application/zip" href="/api/download?key=<?= \urlencode('Q29tYmluYXRvcmljc1NvbHZlckFwcF9EZW1v'); ?>">Demo</a>
+        <a class="button" href="#">Buy</a>
     </div>
 </div>
 
 ## Summary
 
-The Combinatorics Solver tries to combine a given set of numbers to reach a specific total amount. The data can be imported as Excel of CSV file. One possible application could in accounting when you need to find the postings which make up a certain amount.
+The Combinatorics Solver tries to combine a given set of numbers to reach a specific total amount. The data can be imported as Excel or CSV file. One possible application could in accounting when you need to find the postings which make up a certain amount.
 
 ## Features
 
