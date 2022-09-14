@@ -32,7 +32,7 @@ Der Label Validator vergleicht Bilder von Etiketten mit benutzerdefinierten Etik
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](/content/licenses/LICENSE V2.txt)
+* [Lizenz](/content/licenses/LICENSE%20V2.txt)
 
 ### Haftungsausschluss
 

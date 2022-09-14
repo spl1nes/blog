@@ -84,7 +84,7 @@ Prozess | IT inkl. Risikokontrollmatrix und Flussdiagramm | Prozess | IT inkl. R
 ## Rechtliches
 
 * [AGBs](/den/terms)
-* [Lizenz](/content/licenses/LICENSE V2.txt)
+* [Lizenz](/content/licenses/LICENSE%20V2.txt)
 
 ### Haftungsausschluss
 

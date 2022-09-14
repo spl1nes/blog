@@ -39,7 +39,7 @@ Der Test Report Generator ist ein PHP-Skript, das einen Bericht aus PHPUnit-Test
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](/content/licenses/LICENSE MIT V1.txt)
+* [Lizenz](/content/licenses/LICENSE%20MIT%20V1.txt)
 
 ## Referenzen
 

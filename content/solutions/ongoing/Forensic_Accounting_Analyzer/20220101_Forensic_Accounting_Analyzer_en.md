@@ -34,7 +34,7 @@ Postings and account information can be provided as Excel(s) file or csv files.
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](/content/licenses/LICENSE V2.txt)
+* [License](/content/licenses/LICENSE%20V2.txt)
 
 ### Disclaimer
 

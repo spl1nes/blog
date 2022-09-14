@@ -36,7 +36,7 @@ Zu Zwecken der Qualitätskontrolle müssen Sie die Abmessungen von Schrauben mit
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](/content/licenses/LICENSE V2.txt)
+* [Lizenz](/content/licenses/LICENSE%20V2.txt)
 
 ### Haftungsausschluss
 

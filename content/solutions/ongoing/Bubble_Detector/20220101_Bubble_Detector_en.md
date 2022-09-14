@@ -31,7 +31,7 @@ A syringe contains a fluid with low viscousity and some bubbles. This syringe ge
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](/content/licenses/LICENSE V2.txt)
+* [License](/content/licenses/LICENSE%20V2.txt)
 
 ### Disclaimer
 

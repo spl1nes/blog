@@ -36,7 +36,7 @@ For quality control purposes you need to compare the dimensions of screws with a
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](/content/licenses/LICENSE V2.txt)
+* [License](/content/licenses/LICENSE%20V2.txt)
 
 ### Disclaimer
 

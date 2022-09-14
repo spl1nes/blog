@@ -32,7 +32,7 @@ The Label Validator compares images of labels to custom defined labels in terms 
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](/content/licenses/LICENSE V2.txt)
+* [License](/content/licenses/LICENSE%20V2.txt)
 
 ### Disclaimer
 

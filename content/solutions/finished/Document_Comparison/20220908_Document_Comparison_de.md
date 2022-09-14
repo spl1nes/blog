@@ -31,7 +31,7 @@ Die Anwendung zeigt im linken Textfeld den ursprünglichen Text und im rechten T
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](/content/licenses/LICENSE V2.txt)
+* [Lizenz](/content/licenses/LICENSE%20V2.txt)
 
 ### Haftungsausschluss
 

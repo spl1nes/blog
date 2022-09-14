@@ -36,7 +36,7 @@ Der Sales Analyst ist ein BI-Tool mit festen und vordefinierten Berichten und An
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](/content/licenses/LICENSE V2.txt)
+* [Lizenz](/content/licenses/LICENSE%20V2.txt)
 
 ### Haftungsausschluss
 

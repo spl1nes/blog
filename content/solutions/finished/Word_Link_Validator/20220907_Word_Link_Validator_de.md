@@ -28,7 +28,7 @@ Die Anwendung Word Link Validator überprüft Links in Word-Dateien, indem sie p
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](/content/licenses/LICENSE V2.txt)
+* [Lizenz](/content/licenses/LICENSE%20V2.txt)
 
 ### Haftungsausschluss
 

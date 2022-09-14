@@ -31,7 +31,7 @@ The Online Resource Watcher allows you to watch online resources such as website
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](/content/licenses/LICENSE V2.txt)
+* [License](/content/licenses/LICENSE%20V2.txt)
 
 ### Disclaimer
 

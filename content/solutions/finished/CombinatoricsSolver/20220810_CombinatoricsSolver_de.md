@@ -43,7 +43,7 @@ wobei `K = maximale Kombinationen` und `n = Anzahl der Daten`.
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](/content/licenses/LICENSE V2.txt)
+* [Lizenz](/content/licenses/LICENSE%20V2.txt)
 
 ### Haftungsausschluss
 
