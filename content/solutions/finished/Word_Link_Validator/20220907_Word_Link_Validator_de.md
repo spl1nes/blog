@@ -21,10 +21,14 @@ Die Anwendung Word Link Validator überprüft Links in Word-Dateien, indem sie p
 * Überprüfen Sie die Verfügbarkeit von lokalen und Online-Links
 * Überprüfen Sie link in der Kopfzeil, Fußzeile, Inhalt, Kommentaren und Fußnoten
 
+## Abhängigkeiten
+
+* Microsoft Windows 7 oder neuer
+
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [Lizenz](https://github.com/Karaka-Management/WordLinkValidatorApp/blob/master/LICENSE.txt)
 
 ### Haftungsausschluss
 

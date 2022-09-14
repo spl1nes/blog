@@ -24,6 +24,10 @@ The application shows in the left text field the original text and in the right 
 * Compare text inputs
 * Compare pdf documents
 
+## Dependencies
+
+* Microsoft Windows 7 or newer
+
 ## Legal
 
 * [Terms of Service](/en/terms)

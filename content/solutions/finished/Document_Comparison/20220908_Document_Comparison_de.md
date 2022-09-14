@@ -24,6 +24,10 @@ Die Anwendung zeigt im linken Textfeld den ursprünglichen Text und im rechten T
 * Vergleich von Texteingaben
 * Vergleich von PDF-Dokumenten
 
+## Abhängigkeiten
+
+* Microsoft Windows 7 oder neuer
+
 ## Legal
 
 * [AGBs](/de/terms)

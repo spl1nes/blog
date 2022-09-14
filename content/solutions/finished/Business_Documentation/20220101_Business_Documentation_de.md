@@ -84,7 +84,7 @@ Prozess | IT inkl. Risikokontrollmatrix und Flussdiagramm | Prozess | IT inkl. R
 ## Rechtliches
 
 * [AGBs](/den/terms)
-* [Lizenz](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [Lizenz](https://github.com/Karaka-Management/Organization-Guide/blob/master/LICENSE.txt)
 
 ### Haftungsausschluss
 

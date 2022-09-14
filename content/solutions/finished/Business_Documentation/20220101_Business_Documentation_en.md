@@ -82,7 +82,7 @@ Some of the content included in the business documentation are:
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [License](https://github.com/Karaka-Management/Organization-Guide/blob/master/LICENSE.txt)
 
 ### Disclaimer
 

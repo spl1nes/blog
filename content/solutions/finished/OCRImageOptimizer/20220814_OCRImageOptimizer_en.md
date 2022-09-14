@@ -29,6 +29,12 @@ If you scan a document as PDF you need to convert this document form PDF to an i
 * Manually define which optimizations should get executed
 * Easy to install and use
 
+## Dependencies
+
+* Windows 7 or newer (linux available upon request)
+* OCR reader for text recognition
+* pdftoppm or similar to convert PDFs to images
+
 ## Legal
 
 * [Terms of Service](/en/terms)

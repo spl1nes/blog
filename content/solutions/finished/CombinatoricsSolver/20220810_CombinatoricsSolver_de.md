@@ -22,6 +22,24 @@ Der Combinatorics Solver versucht, eine gegebene Menge von Zahlen so zu kombinie
 * Mehrere Lösungen können zurückgegeben werden, falls vorhanden
 * Automatische Warnung, wenn die Einstellungen aufgrund der Menge der möglichen Kombinationen Probleme verursachen könnten
 
+## Abhängigkeiten
+
+* Microsoft Windows 7 oder neuer
+
+## Bilder
+
+<div class="splash">
+    <img alt="Splash" src="/content/solutions/finished/CombinatoricsSolver/img/CombinatoricsSolver_splash2.png">
+</div>
+
+## Technische Details
+
+Die maximale Anyahl von möglichen Kombinationen, die während der Analyse überprüft werden sind durch den Binomialkoeffizienten definiert.
+
+<img alt="Splash" src="/content/solutions/finished/CombinatoricsSolver/img/515b05ed3954b44c81f82709ee1cb188.png" width="200px">
+
+wobei `K = maximale Kombinationen` und `n = Anzahl der Daten`.
+
 ## Legal
 
 * [AGBs](/de/terms)

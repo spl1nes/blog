@@ -29,6 +29,12 @@ Wenn Sie ein Dokument als PDF scannen, müssen Sie dieses Dokument von PDF in ei
 * Manuell festlegen, welche Optimierungen ausgeführt werden sollen
 * Einfach zu installieren und zu benutzen
 
+## Abhängigkeiten
+
+* Microsoft Windows 7 oder neuer (für linux verfügbar auf Nachfrage)
+* OCR Software für Texterkennung
+* pdftoppm oder ähnliche Software zur Konvertierung von PDF zu Bildern
+
 ## Legal
 
 * [AGBs](/de/terms)

@@ -21,10 +21,14 @@ The Word Link Validator application validates links in word files by checking if
 * Validate the availability of local and online links
 * Validate links in the header, footer, content, comments and endnotes/footnotes
 
+## Dependencies
+
+* Microsoft Windows 7 or newer
+
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [License](https://github.com/Karaka-Management/WordLinkValidatorApp/blob/master/LICENSE.txt)
 
 ### Disclaimer
 

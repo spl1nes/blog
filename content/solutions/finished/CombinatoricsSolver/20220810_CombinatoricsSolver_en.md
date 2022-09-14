@@ -22,6 +22,22 @@ The Combinatorics Solver tries to combine a given set of numbers to reach a spec
 * Multiple solutions can be returned if available
 * Automatically warn if the settings may cause problems due to the amount of possible combinations
 
+## Dependencies
+
+* Microsoft Windows 7 or newer
+
+## Images
+
+<img alt="Splash" src="/content/solutions/finished/CombinatoricsSolver/img/CombinatoricsSolver_splash2.png">
+
+## Technical detail
+
+The maximum number of possible combinations which are checked during the analysis are defined by the binomial coefficient.
+
+<img alt="Splash" src="/content/solutions/finished/CombinatoricsSolver/img/515b05ed3954b44c81f82709ee1cb188.png" width="200px">
+
+where `K = max combinations` and `n = number of data lines`.
+
 ## Legal
 
 * [Terms of Service](/en/terms)
