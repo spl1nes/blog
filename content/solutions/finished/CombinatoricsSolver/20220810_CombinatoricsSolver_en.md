@@ -13,7 +13,7 @@ Find numbers which make up a defined total amount
 
 ## Summary
 
-The Combinatorics Solver tries to combine a given set of numbers to reach a specific total amount. The data can be imported as Excel or CSV file. One possible application could in accounting when you need to find the postings which make up a certain amount.
+The Combinatorics Solver tries to combine a given set of numbers to reach a specific total amount. The data can be imported as Excel or CSV file. One possible application could be in accounting when you need to find the postings which make up a certain amount.
 
 ## Features
 
