@@ -45,7 +45,3 @@ Wenn Sie ein Dokument als PDF scannen, müssen Sie dieses Dokument von PDF in ei
 Sie können die Demo-Anwendung für Tests verwenden, um zu sehen, ob die Software Ihre Anforderungen erfüllt.
 
 > Die Demoanwendung druckt ein Wasserzeichen auf das Bild.
-
-## Referenzen
-
-* [Installation & Verwendung](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/README.md)

@@ -45,7 +45,3 @@ If you scan a document as PDF you need to convert this document form PDF to an i
 You can use the demo application for some tests in order to see if the software fulfills your needs.
 
 > The demo application prints a water mark on the image.
-
-## References
-
-* [Installation & usage](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/README.md)
