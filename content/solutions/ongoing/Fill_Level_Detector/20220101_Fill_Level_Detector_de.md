@@ -26,7 +26,7 @@ Der Fill Level Detector analysiert die Füllmenge von Flüssigkeitsbehältern wi
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/FillLevelDetectorApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

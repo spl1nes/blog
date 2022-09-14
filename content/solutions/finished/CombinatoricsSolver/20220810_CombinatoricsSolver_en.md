@@ -41,7 +41,7 @@ where `K = max combinations` and `n = number of data lines`.
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/CombinatoricsSolverApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

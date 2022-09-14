@@ -82,7 +82,7 @@ Some of the content included in the business documentation are:
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/Organization-Guide/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

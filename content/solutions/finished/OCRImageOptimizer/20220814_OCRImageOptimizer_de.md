@@ -38,7 +38,7 @@ Wenn Sie ein Dokument als PDF scannen, müssen Sie dieses Dokument von PDF in ei
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

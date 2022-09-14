@@ -34,7 +34,7 @@ Buchungen und Kontoinformationen können als Excel(s)-Datei oder csv-Datei berei
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/ForensicAccountingAnalyzerApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

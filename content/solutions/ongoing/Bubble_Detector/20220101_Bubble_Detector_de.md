@@ -31,7 +31,7 @@ Eine Spritze enthält eine Flüssigkeit mit geringer Viskosität und einigen Bla
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/BubbleDetectorApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

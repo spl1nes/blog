@@ -28,7 +28,7 @@ The Word Link Validator application validates links in word files by checking if
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/WordLinkValidatorApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

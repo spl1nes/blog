@@ -40,7 +40,7 @@ An example could be a company who sells 3D printers or CNC machines together wit
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/NewsletterApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

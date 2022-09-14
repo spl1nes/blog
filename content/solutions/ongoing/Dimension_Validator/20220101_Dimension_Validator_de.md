@@ -36,7 +36,7 @@ Zu Zwecken der Qualitätskontrolle müssen Sie die Abmessungen von Schrauben mit
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/DimensionValidatorApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

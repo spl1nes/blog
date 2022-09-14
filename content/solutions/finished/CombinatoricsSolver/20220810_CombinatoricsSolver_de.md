@@ -43,7 +43,7 @@ wobei `K = maximale Kombinationen` und `n = Anzahl der Daten`.
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/CombinatoricsSolverApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

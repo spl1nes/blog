@@ -31,7 +31,7 @@ The application shows in the left text field the original text and in the right 
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/DocumentComparisonApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

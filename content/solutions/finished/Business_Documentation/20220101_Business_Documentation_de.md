@@ -84,7 +84,7 @@ Prozess | IT inkl. Risikokontrollmatrix und Flussdiagramm | Prozess | IT inkl. R
 ## Rechtliches
 
 * [AGBs](/den/terms)
-* [Lizenz](https://github.com/Karaka-Management/Organization-Guide/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

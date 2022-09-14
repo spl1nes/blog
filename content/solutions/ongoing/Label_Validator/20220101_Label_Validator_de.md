@@ -32,7 +32,7 @@ Der Label Validator vergleicht Bilder von Etiketten mit benutzerdefinierten Etik
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/LabelValidatorApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

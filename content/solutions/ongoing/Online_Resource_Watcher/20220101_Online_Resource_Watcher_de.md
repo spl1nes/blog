@@ -31,7 +31,7 @@ Mit dem Online Resource Watcher können Sie Online-Ressourcen wie Websites, PDFs
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/OnlineResourceWatcherApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

@@ -26,7 +26,7 @@ The eMail Rank application analyzes emails sent between users and creates a netw
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/eMailRankApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

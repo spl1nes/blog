@@ -34,7 +34,7 @@ Postings and account information can be provided as Excel(s) file or csv files.
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/ForensicAccountingAnalyzerApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

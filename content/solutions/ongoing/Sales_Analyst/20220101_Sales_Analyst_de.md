@@ -36,7 +36,7 @@ Der Sales Analyst ist ein BI-Tool mit festen und vordefinierten Berichten und An
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

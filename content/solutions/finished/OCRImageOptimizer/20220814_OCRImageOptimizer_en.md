@@ -38,7 +38,7 @@ If you scan a document as PDF you need to convert this document form PDF to an i
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/OCRImageOptimizerApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

@@ -36,7 +36,7 @@ For quality control purposes you need to compare the dimensions of screws with a
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/DimensionValidatorApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 

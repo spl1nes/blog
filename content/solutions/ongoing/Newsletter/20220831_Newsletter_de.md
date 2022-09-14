@@ -40,7 +40,7 @@ Ein Beispiel könnte eine Firma sein, die 3D-Drucker oder CNC-Maschinen zusammen
 ## Legal
 
 * [AGBs](/de/terms)
-* [Lizenz](https://github.com/Karaka-Management/NewsletterApp/blob/master/LICENSE.txt)
+* [Lizenz](/content/licenses/LICENSE V2.txt)
 
 ### Haftungsausschluss
 

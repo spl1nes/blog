@@ -26,7 +26,7 @@ The Fill Level Detector analyzes the fill amount of liquid containers such as bo
 ## Legal
 
 * [Terms of Service](/en/terms)
-* [License](https://github.com/Karaka-Management/FillLevelDetectorApp/blob/master/LICENSE.txt)
+* [License](/content/licenses/LICENSE V2.txt)
 
 ### Disclaimer
 
