@@ -6,4 +6,3 @@ Main developers: Dennis Eichhorn
 Last update: 2022
 Standards: PHP 8.1, HTML5, CSS3, JavaScript
 Software: Sublime Text, PHPStorm, Github, Git, Visual Studio Code
-IDE: Sublime Text, PHPStorm, Visual Studio Code
