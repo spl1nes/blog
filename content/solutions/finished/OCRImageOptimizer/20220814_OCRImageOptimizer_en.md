@@ -7,7 +7,7 @@ Improve images for better text recognition
     <div class="price">Price: EUR 199.00</div>
     <div class="purchase">
         <a class="button" rel="download" type="application/zip" href="/api/download?key=<?= \urlencode('T0NSSW1hZ2VPcHRpbWl6ZXJBcHBfRGVtbw=='); ?>">Demo</a>
-        <a class="button" href="#">Buy</a>
+        <a class="button" href="https://buy.stripe.com/test_4gw4gLa9wg5q2Lm8wx">Buy</a>
     </div>
 </div>
 

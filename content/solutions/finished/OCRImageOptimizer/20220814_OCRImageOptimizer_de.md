@@ -7,7 +7,7 @@ Optimiere bilder für bessere Texterkennung
     <div class="price">Preis: 199,00 EUR</div>
     <div class="purchase">
         <a class="button" rel="download" type="application/zip" href="/api/download?key=<?= \urlencode('T0NSSW1hZ2VPcHRpbWl6ZXJBcHBfRGVtbw=='); ?>">Demo</a>
-        <a class="button" href="#">Kaufen</a>
+        <a class="button" href="https://buy.stripe.com/test_4gw4gLa9wg5q2Lm8wx">Kaufen</a>
     </div>
 </div>
 

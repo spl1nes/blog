@@ -16,7 +16,7 @@
             <li>Email: <a href="mailto:d.eichhorn89@web.de">d.eichhorn89@web.de</a>
             <li>Github: <a href="https://github.com/Karaka-Management">https://github.com/Karaka-Management</a> and <a href="https://github.com/spl1nes">https://github.com/spl1nes</a>
             <li>Twitter: <a href="https://twitter.com/karaka_mgmt">https://twitter.com/karaka_mgmt</a>
-            <li><?= $this->data['l11n']['Phone']; ?>: +49
+            <li><?= $this->data['l11n']['Phone']; ?>: +49 152 04337728
         </ul>
     </div>
 </div>
