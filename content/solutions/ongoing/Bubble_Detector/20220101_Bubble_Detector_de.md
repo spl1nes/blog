@@ -3,7 +3,7 @@
 Automatische Blasenerkennung durch Bilderkennung
 
 <div class="splash">
-    <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
     <div class="price">Preis: EUR 2.900,00</div>
     <div class="purchase">
         <!--<a class="button" href="#">Demo</a>

@@ -6,6 +6,7 @@
         <meta name="theme-color" content="#262626">
         <meta name="msapplication-navbutton-color" content="#262626">
         <meta name="apple-mobile-web-app-status-bar-style" content="#262626">
+        <meta name="color-scheme" content="dark light">
 
         <base href="<?= $this->data['base'] ?? ''; ?>/">
 

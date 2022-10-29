@@ -3,7 +3,7 @@
 Beobachte und vergleiche Online-Quellen automatisch
 
 <div class="splash">
-    <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
     <div class="price">Preis: 99,00 EUR</div>
     <div class="purchase">
         <!--<a class="button" href="#">Demo</a>

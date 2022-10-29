@@ -222,3 +222,13 @@ article p+p {
         margin-left: 0px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .circle-start, .circle-end {
+        background: rgb(44, 44, 48);
+    }
+
+    img.placeholder {
+        filter: invert(100%);
+    }
+}

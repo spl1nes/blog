@@ -18,7 +18,7 @@ $solutions = $this->data['solutions'] ?? [];
                         <?php if (\is_file(__DIR__ . '/../../content/solutions/' . $solution['path'] . '/' . $solution['parent'] . '/img/' . ($solution['splash'] ?? ''))) : ?>
                             <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
                         <?php else: ?>
-                            <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+                            <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
                         <?php endif; ?>
                     </a>
                 </div>
@@ -47,7 +47,7 @@ $solutions = $this->data['solutions'] ?? [];
                         <?php if (\is_file(__DIR__ . '/../../content/solutions/' . $solution['path'] . '/' . $solution['parent'] . '/img/' . ($solution['splash'] ?? ''))) : ?>
                             <img alt="Splash" src="/content/solutions/<?= $solution['path']; ?>/<?= $solution['parent']; ?>/img/<?= $solution['splash'] ?? '' ?>">
                         <?php else: ?>
-                            <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+                            <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
                         <?php endif; ?>
                     </a>
                 </div>

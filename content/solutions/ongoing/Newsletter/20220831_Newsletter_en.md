@@ -3,7 +3,7 @@
 Send newsletter and promotions directly to workstations
 
 <div class="splash">
-    <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
     <div class="price">Price: EUR 499.00</div>
     <div class="purchase">
         <!--<a class="button" href="#">Demo</a>

@@ -3,7 +3,7 @@
 Automatic bubble detection through image recognition
 
 <div class="splash">
-    <img alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
     <div class="price">Price: EUR 2,900.00</div>
     <div class="purchase">
         <!--<a class="button" href="#">Demo</a>
