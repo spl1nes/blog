@@ -228,6 +228,10 @@ article p+p {
         background: rgb(44, 44, 48);
     }
 
+    .tag {
+        color: rgb(44, 44, 48);
+    }
+
     img.placeholder {
         filter: invert(100%);
     }
