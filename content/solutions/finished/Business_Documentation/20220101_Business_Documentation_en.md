@@ -13,7 +13,7 @@ Business processes, guidelines and templates
 
 ## Summary
 
-The business documentation includes various documents which can be helpful to setup a startup, implement processes, Risk Management etc. The documents are created with a very strong focus on a IT company. Nevertheless, the documentation can be easily modified and expanded to fit many different company types and industries.
+The business documentation includes various documents which can be helpful to get your company started, implement processes, Risk Management, manage your finances, budgeting process or general business operations etc. The documents are created with a very strong focus on a IT company. Nevertheless, the documentation can be easily modified and expanded to fit many different company types and industries.
 
 ### Images
 

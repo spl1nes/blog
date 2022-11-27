@@ -15,7 +15,7 @@ Unternehmensprozesse, Richtlinien und Vorlagen
 
 ## Zusammenfassung
 
-Die Unternehmensdokumentation umfasst verschiedene Dokumente, die bei der Gründung eines Unternehmens, der Implementierung von Prozessen, dem Risikomanagement usw. hilfreich sein können. Die Dokumente wurden mit einem sehr starken Fokus auf ein IT-Unternehmen erstellt. Dennoch kann die Dokumentation leicht modifiziert und erweitert werden, um sie an viele verschiedene Unternehmenstypen und Branchen anzupassen.
+Die Unternehmensdokumentation umfasst verschiedene Dokumente, die bei der Gründung eines Unternehmens, der Implementierung von Prozessen, dem Risikomanagement, Verwaltung der Finanzen, Budgetierungsprozess oder allgemeinen Unternehmensführung usw. hilfreich sein können. Die Dokumente wurden mit einem sehr starken Fokus auf ein IT-Unternehmen erstellt. Dennoch kann die Dokumentation leicht modifiziert und erweitert werden, um sie an viele verschiedene Unternehmenstypen und Branchen anzupassen.
 
 ### Bilder
 
