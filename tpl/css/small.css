@@ -280,6 +280,7 @@ article tbody tr:nth-child(2n) td {
     }
 }
 
+/*
 @media (prefers-color-scheme: dark) {
     body {
         background: rgb(44, 44, 48);
@@ -290,3 +291,4 @@ article tbody tr:nth-child(2n) td {
         color: rgb(44, 44, 48);
     }
 }
+*/

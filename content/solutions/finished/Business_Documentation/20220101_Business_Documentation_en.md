@@ -15,6 +15,67 @@ Business processes, guidelines and templates
 
 The business documentation includes various documents which can be helpful to setup a startup, implement processes, Risk Management etc. The documents are created with a very strong focus on a IT company. Nevertheless, the documentation can be easily modified and expanded to fit many different company types and industries.
 
+### Images
+
+<div class="gallery">
+    <div class="active-image">
+        <input id="balance_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/balance_report.png">
+        <input id="bcg_matrix" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/bcg_matrix.png">
+        <input id="cash_flow_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/cash_flow_report.png">
+        <input id="cash_management" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/cash_management.png">
+        <input id="flow_chart" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/flow_chart.png">
+        <input id="hourly_rate" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/hourly_rate.png">
+        <input id="hr_budget" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/hr_budget.png">
+        <input id="hr_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/hr_report.png">
+        <input id="kpi_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/kpi_report.png">
+        <input id="marketing_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/marketing_report.png">
+        <input id="pl_charts" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/pl_charts.png">
+        <input id="pl_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/pl_report.png">
+        <input id="process_description" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/process_description.png">
+        <input id="risk_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/risk_report.png">
+        <input id="sales_budget" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/sales_budget.png">
+        <input id="sales_price" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/sales_price.png">
+        <input id="sales_report" type="radio" name="gallery_1">
+        <img src="/content/solutions/finished/Business_Documentation/img/sales_report.png">
+    </div>
+    <div class="thumbs">
+        <label for="balance_report"><img class="preview" alt="balance_report" src="/content/solutions/finished/Business_Documentation/img/balance_report.png"></label>
+        <label for="bcg_matrix"><img class="preview" alt="bcg_matrix" src="/content/solutions/finished/Business_Documentation/img/bcg_matrix.png"></label>
+        <label for="cash_flow_report"><img class="preview" alt="cash_flow_report" src="/content/solutions/finished/Business_Documentation/img/cash_flow_report.png"></label>
+        <label for="cash_management"><img class="preview" alt="cash_management" src="/content/solutions/finished/Business_Documentation/img/cash_management.png"></label>
+        <label for="flow_chart"><img class="preview" alt="flow_chart" src="/content/solutions/finished/Business_Documentation/img/flow_chart.png"></label>
+        <label for="hourly_rate"><img class="preview" alt="hourly_rate" src="/content/solutions/finished/Business_Documentation/img/hourly_rate.png"></label>
+        <label for="hr_budget"><img class="preview" alt="hr_budget" src="/content/solutions/finished/Business_Documentation/img/hr_budget.png"></label>
+        <label for="hr_report"><img class="preview" alt="hr_report" src="/content/solutions/finished/Business_Documentation/img/hr_report.png"></label>
+        <label for="kpi_report"><img class="preview" alt="kpi_report" src="/content/solutions/finished/Business_Documentation/img/kpi_report.png"></label>
+        <label for="marketing_report"><img class="preview" alt="marketing_report" src="/content/solutions/finished/Business_Documentation/img/marketing_report.png"></label>
+        <label for="pl_charts"><img class="preview" alt="pl_charts" src="/content/solutions/finished/Business_Documentation/img/pl_charts.png"></label>
+        <label for="pl_report"><img class="preview" alt="pl_report" src="/content/solutions/finished/Business_Documentation/img/pl_report.png"></label>
+        <label for="process_description"><img class="preview" alt="process_description" src="/content/solutions/finished/Business_Documentation/img/process_description.png"></label>
+        <label for="risk_report"><img class="preview" alt="risk_report" src="/content/solutions/finished/Business_Documentation/img/risk_report.png"></label>
+        <label for="sales_budget"><img class="preview" alt="sales_budget" src="/content/solutions/finished/Business_Documentation/img/sales_budget.png"></label>
+        <label for="sales_price"><img class="preview" alt="sales_price" src="/content/solutions/finished/Business_Documentation/img/sales_price.png"></label>
+        <label for="sales_report"><img class="preview" alt="sales_report" src="/content/solutions/finished/Business_Documentation/img/sales_report.png"></label>
+    </div>
+    <div class="clear"></div>
+</div>
+
 ### Style and dependencies
 
 The documents are created with the Software called Typora, and use the Markdown text standard with some additional extensions. The advantage of this text format is that it is very easy to track changes to the documents in version control software. Of course you can also copy the contents and paste them into your software of choice (e.g. Word, Notes, Intranet, etc.).
@@ -32,14 +93,19 @@ Some of the content included in the business documentation are:
 | Process            | Development incl. Risk Contorl Matrix and Flowchart					  |
 | Process            | Purchase incl. Risk Contorl Matrix and Flowchart						  |
 | Process            | Sales incl. Risk Contorl Matrix and Flowchart						  |
+| Process            | Calculation examples for hourly rate and sales prices     			  |
+| Process            | BCG Matrix template                                       			  |
 | Process            | Support & Service incl. Risk Contorl Matrix and Flowchart			  |
 | Process            | HR incl. Risk Contorl Matrix and Flowchart							  |
 | Process            | Finance incl. Risk Contorl Matrix and Flowchart						  |
+| Process            | Income Statement, Balance, Cash Flow, Cash Management report and budget templates |
+| Process            | Project Management Template                                            |
 | Process            | Management incl. Risk Contorl Matrix and Flowchart					  |
+| Process            | SWOT Analysis and Business Model Canvas template  					  |
 | Process            | Quality Management incl. Risk Contorl Matrix and Flowchart			  |
 | Process            | IT incl. Risk Contorl Matrix and Flowchart							  |
 | Risk Management    | Risk Management										   		  		  |
-| Risk Management    | Risk Register														  |
+| Risk Management    | Risk Report														      |
 | Risk Management    | Risk Control Matrices for processes (see above)						  |
 | Risk Management    | SOX Company Level Controls (CLC)						   		  		  |
 | Risk Management    | SOX IT General Controls (ITGC)						   		  		  |

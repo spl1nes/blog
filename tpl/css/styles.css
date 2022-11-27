@@ -119,7 +119,8 @@ a.button {
     padding: .3rem .5rem .3rem .5rem;
     border-radius: 5px;
     margin: .1rem;
-    text-decoration: none;;
+    text-decoration: none;
+    ;
 }
 
 a.button:hover {
@@ -136,11 +137,11 @@ a.button:hover {
     align-items: center;
 }
 
-.preview + .preview {
+.preview+.preview {
     margin-top: 50px;
 }
 
-.preview > div {
+.preview>div {
     flex: 1;
 }
 
@@ -201,6 +202,30 @@ article p+p {
     margin-top: .5rem;
 }
 
+.gallery input {
+    display: none;
+}
+
+.gallery input+img {
+    display: none;
+}
+
+.gallery input:checked+img {
+    display: block;
+}
+
+.gallery .thumbs img {
+    width: 100px;
+    height: 100px;
+    margin: .3rem;
+    border: 1px solid #ccc;
+}
+
+.gallery label {
+    float: left;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
     .date {
         margin: 0;
@@ -224,7 +249,9 @@ article p+p {
 }
 
 @media (prefers-color-scheme: dark) {
-    .circle-start, .circle-end {
+
+    .circle-start,
+    .circle-end {
         background: rgb(44, 44, 48);
     }
 

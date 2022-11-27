@@ -15,7 +15,7 @@ Improve images for better text recognition
 
 The OCR Image Optimizer is a command line tool for optimizing badly scanned or photographed documents for better OCR performance on Windows.
 
-Optimization features include color changes to black and white, removing shadows, image rotation, removal of unneccessary areas and image sharpening. The software does not include a text recognition program (OCR).
+Optimization features include color changes to black and white, removing shadows, image rotation, removal of unnecessary areas and image sharpening. The software does not include a text recognition program (OCR).
 
 ## Scenarios
 
