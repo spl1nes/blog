@@ -248,6 +248,7 @@ article p+p {
     }
 }
 
+/*
 @media (prefers-color-scheme: dark) {
 
     .circle-start,
@@ -263,3 +264,4 @@ article p+p {
         filter: invert(100%);
     }
 }
+*/
