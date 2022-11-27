@@ -21,7 +21,7 @@ Die Unternehmensdokumentation umfasst verschiedene Dokumente, die bei der Gründ
 
 <div class="gallery">
     <div class="active-image">
-        <input id="balance_report" type="radio" name="gallery_1">
+        <input id="balance_report" type="radio" name="gallery_1" checked>
         <img src="/content/solutions/finished/Business_Documentation/img/balance_report.png">
         <input id="bcg_matrix" type="radio" name="gallery_1">
         <img src="/content/solutions/finished/Business_Documentation/img/bcg_matrix.png">
