@@ -16,6 +16,8 @@
         <link rel="shortcut icon" href="tpl/img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="tpl/css/styles.css">
         <link rel="stylesheet" type="text/css" href="resources/fonts/Roboto/roboto.css">
+        <link rel="stylesheet" type="text/css" href="resources/fonts/linearicons/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/fonts/lineicons/css/lineicons.css">
 
         <title><?= $this->data['title'] ?? 'Jingga'; ?></title>
 

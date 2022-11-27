@@ -133,9 +133,27 @@ nav ul, footer ul {
     margin: 0;
 }
 
-nav li, footer li {
+nav li {
     display: inline-block;
     padding: .5rem 1rem .5rem 1rem;
+}
+
+#bottom-nav li {
+    display: inline-block;
+    padding: 0 1rem .5rem 1rem;
+}
+
+#social {
+    margin-top: 1rem;
+}
+
+#social li {
+    display: block;
+    padding: 0 1rem .5rem 0;
+}
+
+#footer-left {
+    text-align: left;
 }
 
 img {
@@ -235,7 +253,7 @@ article code pre {
     margin: 0;
 }
 
-#copyright {
+#footer-left {
     float: left;
 }
 
