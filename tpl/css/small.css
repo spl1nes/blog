@@ -221,7 +221,7 @@ a {
     text-decoration: none;
 }
 
-.content p, .content ul {
+.content p, .content ul, .content ol {
     line-height: 1.7rem;
 }
 
