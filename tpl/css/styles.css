@@ -226,6 +226,13 @@ article p+p {
     cursor: pointer;
 }
 
+iframe {
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     .date {
         margin: 0;

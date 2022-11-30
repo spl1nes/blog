@@ -1,0 +1,86 @@
+<htm>
+    <head>
+        <style>
+            .ac-container {
+                text-align: left;
+                border: 1px solid #c9c9c9;
+            }
+            .ac-container > input {
+                display: none;
+            }
+            .ac-container > input:checked + label + section {
+                display: inherit;
+            }
+            .ac-container > input:checked + label:hover {
+                background: var(--button-colored-background-hover);
+            }
+            .ac-container > input + label + section {
+                display: none;
+            }
+            .ac-container label {
+                display: block;
+                padding: 1rem 1rem;
+                position: relative;
+                z-index: 20;
+                margin-top: -1px;
+                cursor: pointer;
+                color: #000;
+                font-size: 1rem;
+            }
+            .ac-container > section {
+                background: #fff;
+                overflow: hidden;
+                height: auto;
+                position: relative;
+                z-index: 10;
+                padding: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ac-container">
+            <input type="checkbox" name="About us" id="ac-1">
+            <label for="ac-1">About us</label>
+            <section>
+                <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show
+                    that show to the people who make shows, and on the strength of that one show they decide if
+                    they're going to make more shows.</p>
+            </section>
+            <input type="checkbox" name="About us" id="ac-2">
+            <label for="ac-2">How we work</label>
+            <section>
+                <p>Like you, I used to think the world was this great place where everybody lived by the same
+                    standards I did, then some kid with a nail showed me I was living in his world, a world where
+                    chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if
+                    you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+            </section>
+            <input type="checkbox" name="About us" id="ac-3" checked>
+            <label for="ac-3">References</label>
+            <section>
+                <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it
+                    killed the world once and got a taste for murder. After the avalanche, it took us a week to
+                    climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us
+                    survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We
+                    said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it
+                    doesn't hold a candle to man. </p>
+
+                <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it
+                    killed the world once and got a taste for murder. After the avalanche, it took us a week to
+                    climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us
+                    survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We
+                    said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it
+                    doesn't hold a candle to man. </p>
+            </section>
+            <input type="checkbox" name="About us" id="ac-4">
+            <label for="ac-4">Contact us</label>
+            <section>
+                <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell
+                    everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in
+                    the future when the spacecraft encounters a black hole does the computer call it an 'unknown
+                    entry event'? Why don't they know? If they don't know, that means we never told anyone. And if
+                    we never told anyone it means we never made it back. Hence we die down here. Just as a matter of
+                    deductive logic. </p>
+            </section>
+        </div>
+    </body>
+</htm>

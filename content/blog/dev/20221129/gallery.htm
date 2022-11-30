@@ -1,0 +1,68 @@
+<htm>
+    <head>
+        <style>
+            img {
+                width: 100%;
+            }
+
+            .gallery {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .gallery input {
+                display: none;
+            }
+
+            .gallery input+img {
+                display: none;
+            }
+
+            .gallery input:checked+img {
+                display: block;
+            }
+
+            .gallery .thumbs img {
+                width: 100px;
+                height: 100px;
+                margin: .3rem;
+                border: 1px solid #ccc;
+            }
+
+            .gallery label {
+                float: left;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="gallery">
+            <div class="active-image">
+                <input id="i1" type="radio" name="gallery_1" checked>
+                <img src="/content/blog/dev/20221129/1.png">
+                <input id="i2" type="radio" name="gallery_1">
+                <img src="/content/blog/dev/20221129/2.png">
+                <input id="i3" type="radio" name="gallery_1">
+                <img src="/content/blog/dev/20221129/3.png">
+                <input id="i4" type="radio" name="gallery_1">
+                <img src="/content/blog/dev/20221129/4.png">
+                <input id="i5" type="radio" name="gallery_1">
+                <img src="/content/blog/dev/20221129/5.png">
+                <input id="i6" type="radio" name="gallery_1">
+                <img src="/content/blog/dev/20221129/6.png">
+                <input id="i7" type="radio" name="gallery_1">
+                <img src="/content/blog/dev/20221129/7.png">
+            </div>
+            <div class="thumbs">
+                <label for="i1"><img class="preview" src="/content/blog/dev/20221129/1.png"></label>
+                <label for="i2"><img class="preview" src="/content/blog/dev/20221129/2.png"></label>
+                <label for="i3"><img class="preview" src="/content/blog/dev/20221129/3.png"></label>
+                <label for="i4"><img class="preview" src="/content/blog/dev/20221129/4.png"></label>
+                <label for="i5"><img class="preview" src="/content/blog/dev/20221129/5.png"></label>
+                <label for="i6"><img class="preview" src="/content/blog/dev/20221129/6.png"></label>
+                <label for="i7"><img class="preview" src="/content/blog/dev/20221129/7.png"></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</htm>

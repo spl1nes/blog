@@ -17,7 +17,6 @@ Risks have three components:
 
 ### Risk Management Objective
 The objective of the risk management is to lessen the likelihood of a future event occurring and/or the consequence should it occur in order to protect patients, customers, suppliers, employees, environment, business stability, affiliated parties, etc.
- 
 ## Risk Management
 
 ### Risk Management Process
@@ -84,7 +83,6 @@ Risk likelihood is the evaluated probability an event will occur given existing 
 The initial assessment of probability of occurrence needs to be considered in combination with consequences, should the event be realized, and also the effectiveness of mitigation actions when making decisions on whether a given probability level is too high and would preclude proceeding on a planned course of action. Depending on the circumstances, there may be cases in which a risk (probability and consequence) is high enough to change course, in the absence of assured mitigation.
 
 While dealing with individual risks, decision makers should understand the overall risk exposure of the company and the threat that cumulative or compounding effects of multiple risks pose to successfully satisfying business objectives. Multiple risks may expose the company to a greater risk than any individual risk due to complexity, stretched resources, risk interactions, or the aggregate likelihood of the risk realization.
- 
 ### Consequence
 
 During analysis, each risk should be evaluated in terms of impact should the risk be fully realized. Risk consequence is measured as a deviation against historic company or business specific baselines.
@@ -118,6 +116,10 @@ A risk register is a central repository to describe and track risks as well as r
 
 | Risk No. | Owner | Category | Status | Risk Event | Likelihood | Consequence | Mitigation Strategy | Changes | Comments |
 | -------- | ----- | -------- | ------ | ---------- | ---------- | ----------- | ------------------- | ------- | -------- |
+
+### Expected Value
+
+In addition to the consequence and the likelihood at is important to evaluate the expected effect/value. The expected value should give you a realistic effect of a risk by multiplying the consequence with the likelihood. 
 
 ## Risk Mitigation
 
@@ -154,7 +156,6 @@ Risk transfer includes reassigning or delegating responsibility for tasks to mit
 The risk control option seeks to actively reduce risk to an acceptable level. Control generally entails taking action to reduce the likelihood, or the consequence, of a risk to as low as practical in order to minimize potential impacts.
 
 Control options should result in reduced risk likelihood and/or consequence. Risk control activities often reduce the likelihood of the risk event occurring or accelerate knowledge affecting the likelihood. The result may be a new risk description with revised consequences and an updated prioritization and mitigation strategy.
- 
 ## Risk Monitoring
 
 Risk monitoring answers the question “How has the risk changed?” or “How are the risk mitigation plans working? Based on results, should additional actions be taken to mitigate or control the risk?”.

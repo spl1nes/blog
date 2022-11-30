@@ -1,0 +1,76 @@
+<htm>
+    <head>
+        <style>
+            .tabview .tab-links {
+                padding: 0.3rem 0 0 0;
+            }
+            .tabview .tab-links label {
+                user-select: none;
+                cursor: pointer;
+                white-space: nowrap;
+            }
+            .tabview .tab-links .active label {
+                cursor: default;
+            }
+            .tabview .tab-links li {
+                display: inline-block;
+            }
+            .tabview .tab-content > input {
+                display: none;
+            }
+            .tabview .tab-content > input + div {
+                display: none;
+            }
+            .tabview .tab-content > input:checked + div {
+                display: inherit;
+            }
+            .tab-1 .tab-links {
+                margin: 0 0 10px 1px;
+            }
+            .tab-1 .tab-links label {
+                padding: 5px;
+                background: none;
+                overflow: auto;
+                background: #fff;
+            }
+            .tab-1 .tab-links li {
+                margin: 0 5px 0 0;
+            }
+            .tab-1 .tab-content {
+                box-sizing: border-box;
+            }
+            .tab-1.left {
+                display: flex;
+            }
+            .tab-1.left .tab-links {
+                margin: 0;
+                border: none;
+            }
+            .tab-1.left .tab-links li {
+                display: block;
+                margin-bottom: 20px;
+            }
+            .tab-1.left .tab-content {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tabview tab-1">
+            <ul class="tab-links">
+                <li class="active"><label for="c-tab-1">Tab 1</label></li>
+                <li><label for="c-tab-2">Tab 2</label></li>
+            </ul>
+            <div class="tab-content">
+                <input type="radio" id="c-tab-1" name="tabular-1" checked>
+                <div class="tab">
+                    <img src="/content/blog/dev/20221129/2.png">
+                </div>
+                <input type="radio" id="c-tab-2" name="tabular-1">
+                <div class="tab">
+                    <img src="/content/blog/dev/20221129/3.png">
+                </div>
+            </div>
+        </div>
+    </body>
+</htm>
