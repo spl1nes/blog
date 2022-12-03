@@ -7,7 +7,7 @@ return '{
     "image": [
         "/content/solutions/finished/img/Bubble_Detector_splash.png"
     ],
-    "description": "Automatic bubble detection through image recognition",
+    "description": "Automatic bubble detection through image and video recognition",
     "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",

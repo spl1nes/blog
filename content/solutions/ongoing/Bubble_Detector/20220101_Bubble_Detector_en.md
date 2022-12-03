@@ -1,9 +1,9 @@
 # Bubble Detector
 
-Automatic bubble detection through image recognition
+Automatic bubble detection through image and video recognition
 
 <div class="splash">
-    <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img alt="Splash" src="/content/solutions/ongoing/Bubble_Detector/img/Bubble_Detector_splash.png">
     <div class="price">Price: EUR 2,900.00</div>
     <div class="purchase">
         <!--<a class="button" href="#">Demo</a>
@@ -13,7 +13,7 @@ Automatic bubble detection through image recognition
 
 ## Summary
 
-The Bubble Detector is a command line tool for recognizing bubbles in fluids stored in containers such as bottles, syringes etc.
+The Bubble Detector is a tool for recognizing bubbles in fluids by processing images or camera input.
 
 Recognition features include defining threasholds in bubble size, bubble quantity, total bubble volume and highlighting potential bubbles in the provided image.
 
@@ -25,8 +25,10 @@ A syringe contains a fluid with low viscousity and some bubbles. This syringe ge
 
 * Estimate bubble size
 * Estimate bubble quantity
-* Estimate total bubble volume
-* Analyze images containing multiple liquid containers
+* Filter by bubble size
+* Filter by bubble circularity
+* Works with images and camera input
+* Automatically log images from camera input based on thresholds
 
 ## Legal
 

@@ -1,9 +1,9 @@
 # Bläschenerkennung
 
-Automatische Blasenerkennung durch Bilderkennung
+Automatische Blasenerkennung durch Bild- und Videoerkennung
 
 <div class="splash">
-    <img class="placeholder" alt="Splash" src="/tpl/img/placeholder_splash.png">
+    <img alt="Splash" src="/content/solutions/ongoing/Bubble_Detector/img/Bubble_Detector_splash.png">
     <div class="price">Preis: EUR 2.900,00</div>
     <div class="purchase">
         <!--<a class="button" href="#">Demo</a>
@@ -13,7 +13,7 @@ Automatische Blasenerkennung durch Bilderkennung
 
 ## Zusammenfassung
 
-Der Bubble Detector ist ein Kommandozeilenprogramm zur Erkennung von Blasen in Flüssigkeiten, die in Behältern wie Flaschen, Spritzen usw. aufbewahrt werden.
+Der Bubble Detector ist ein Kommandozeilenprogramm zur Erkennung von Blasen in Flüssigkeiten durch Bild- und Kamera Videoverarbeitung.
 
 Zu den Erkennungsfunktionen gehören die Definition von Schwellenwerten für die Blasengröße, die Blasenmenge und das Gesamtvolumen der Blasen sowie die Hervorhebung potenzieller Blasen in dem bereitgestellten Bild.
 
@@ -25,8 +25,10 @@ Eine Spritze enthält eine Flüssigkeit mit geringer Viskosität und einigen Bla
 
 * Schätzung der Blasengröße
 * Schätzung der Blasenmenge
-* Schätzung des gesamten Blasenvolumens
-* Analyse von Bildern mit mehreren Flüssigkeitsbehältern
+* Filtern nach Blasengröße
+* Filtern nach Blasenform
+* Arbeitet mit Bildern und Videokamera input
+* Speichert automatisch Kamerabilder basierend of Schwellenwerten
 
 ## Legal
 
